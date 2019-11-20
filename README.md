@@ -6,6 +6,7 @@ Table of contents
 1. [How to start?](#how-to-start)
 1. [How to get better and earn money with this project?](How-to-get-better-and-earn-money-with-this-project)
 1. [Requirement](#requirement)
+1. [Other My CV levels](#other-my-cv-levels)
 
 ## What do you get out of it
 
@@ -55,4 +56,12 @@ Make sure you read the requirement instructions. You can do this in **Visual Stu
 
 If you have any further questions leave them in comments or notes on our website [https://codetap.academy](https://codetap.academy), find the `My CV v2 - junior` and fire away, or join our chat server on https://discord.gg/xcmtRYV and drop a message on the dedicated **#my-cv-v2-junior** channel for this project.
 
+## Other My CV levels
 
+This project is part of a bigger series.
+
+* `My CV v2 - Starter` where we'll have fun using `pug-starter`. If you find following the current project a bit too much to chew, consider starting with a more starter level.
+* `My CV v2 - Mid` where we'll have fun using `React`
+* `My CV v2 - Senior` where we'll have fun using `React` and `NodeJS`
+
+I hope you'll enjoy this project and have fun while you're at it. Stay tuned for more projects to come and the tutorial for this one by following https://codetap.academy and consider **subscribing** as well so we can feed our team with lots of **beers** and lots of **guacamole**!
