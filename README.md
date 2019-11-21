@@ -12,18 +12,27 @@ Table of contents
 
 This is your first PROfessional website where you'll:
 1. discover techniques to build and maintain websites with ease
-1. master how to collaborate in teams by using tools like `git`
+1. master how to collaborate in teams by using tools like `git` and `GitHub`
 1. writing code using a `feature based structure` and `components`
-1. generate HTML using PUG
-1. generate CSS using SASS
+1. generate HTML using PUG and CSS using SASS
+1. use Visual Studio Code as your editor
+1. adhere to the DRY principle (Don't Repeat Yourself)
 1. use simple icons by creating custom fonts
+1. read a design and create pixel perfect interface
+1. read instructions, understand and follow requirements
+1. create a SPA (single page application)
+1. build multiple sections like: about me, let's connect, skills, experience, clients, portfolio, I'm proud, Open source, References, Recommendations, Frequently Asked Questions and a menu
 1. deploy your website online without the need to buy a domain name or hosting
-1. implement videos from YouTube
+1. record and implement videos from YouTube
 1. optimise for speed of loading and rendering (display content in the browser)
+1. optimise CSS for critical rendering path
+1. master CSS tricks
+1. implement a responsive layout
+1. meet the user with a light or dark theme
 1. achieve a perfect Google Page Speed Score
 1. create lists, accordions, modals
-1. separate data from presentation
-1. discover the basics of: JavaScript, JSON, Yaml
+1. separate data from presentation using JSON or Yaml
+1. discover the basics of JavaScript
 
 # How to start
 1. If you are a `mentored` or `wise` member of `CodeTap Academy` you want to get in touch with your **mentor-assistant** or **mentor** so they can create for you a dedicated branch. (***Skip this step if you are not wise or mentored member***)
