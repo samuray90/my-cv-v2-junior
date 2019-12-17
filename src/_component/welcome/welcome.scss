@@ -1,0 +1,40 @@
+.welcome {
+  text-align: center;
+  margin: 0 36px;
+}
+.red-box {
+  background: #d52027;
+  height: 60px;
+  line-height: 60px;
+}
+.section-title {
+  font-size: 24px;
+  color: white;
+  padding: 0 50px;
+  border: 1px solid black;
+  //   box-shadow: 0 0 5px #707070, 0 0 5px #e6e0e0;
+}
+.my-name {
+  font-size: 48px;
+  color: #707070;
+}
+
+.job-position {
+  font-size: 36px;
+  color: #707070;
+}
+
+.subtitle {
+  font-size: 22px;
+  color: #707070;
+}
+
+.text-decription {
+  background: white;
+  padding: 20px;
+  line-height: 2;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #707070, 0 0 5px #e6e0e0;
+}

@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        meta(name="viewport" content="width=device-width")
+        meta(name="description" content="This is the version 2 of My-cv for junior and we gonna use pug as templete engine for hrml")
+        title Welcome to My CV Version 2 Junior
+        //- link(rel="stylesheet", href="./style.scss")
+        if config.entry.css.embed
+        link(rel="stylesheet" href=`${embedPath}` embed)
+    body    
+        .content
+            include _component/Welcome/Welcome 
+
+
+
+        
+        if config.entry.css.external
+            link(rel="stylesheet", href=`${baseUrl}style.css`)
