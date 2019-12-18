@@ -1,5 +1,6 @@
 .welcome {
   text-align: center;
+  align-items: center;
   margin: 0 36px;
 }
 .red-box {
@@ -8,12 +9,34 @@
   line-height: 60px;
 }
 .section-title {
+  text-align: center;
   font-size: 24px;
   color: white;
   padding: 0 50px;
-  border: 1px solid black;
-  //   box-shadow: 0 0 5px #707070, 0 0 5px #e6e0e0;
+  // border: 1px solid blue;
+  height: 60px;
+  width: 85%;
+  margin: auto;
+  box-shadow: 0 0 2px #000000, 0 0 10px #707070;
 }
+
+.youtube-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 0;
+  background: #d52027;
+}
+
+.youtube-link {
+  text-decoration: none;
+}
+
+.youtube-icon {
+  color: white;
+  font-size: 15px;
+}
+
 .my-name {
   font-size: 48px;
   color: #707070;
@@ -27,6 +50,8 @@
 .subtitle {
   font-size: 22px;
   color: #707070;
+  text-align: left;
+  font-style: normal;
 }
 
 .text-decription {
@@ -37,4 +62,45 @@
   text-align: left;
   border-radius: 6px;
   box-shadow: 0 0 5px #707070, 0 0 5px #e6e0e0;
+  color: #707070;
+}
+
+.download-cv {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #1875f0;
+  color: white;
+  border: 0;
+}
+
+.download-cv__link {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-family: "Roboto";
+}
+
+.icon-download {
+  font-size: 10px;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.arrow-down {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  border-radius: 50%;
+  background: #50d166;
+  margin: auto;
+  line-height: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.space[height="30"] {
+  height: 30px;
+}
+.space[height="10"] {
+  height: 10px;
 }
