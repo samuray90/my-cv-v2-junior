@@ -1,16 +1,22 @@
 doctype html
 html
     head
-        meta(name="viewport" content="width=device-width")
-        meta(name="description" content="This is the version 2 of My-cv for junior and we gonna use pug as template engine for html")
+        meta(charset="utf-8")
+        meta(
+            name="viewport" 
+            content="width=device-width"
+            )
+        meta(
+            name="description" 
+            content="This is the version 2 of My-cv for junior and we gonna use pug as template engine for html"
+            )
         title Welcome to My CV Version 2 Junior
-        //- link(rel="stylesheet", href="./style.scss")
         if config.entry.css.embed
-        link(rel="stylesheet" href=`${embedPath}` embed)
+            link(rel="stylesheet" href=`${embedPath}` embed)
     body    
         .content
             .red-box
-                h3.section-title Welcome to My CV
+                .section-title Welcome to My CV
             include _component/Welcome/Welcome 
 
 

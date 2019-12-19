@@ -74,6 +74,7 @@
 }
 
 .download-cv__link {
+  display: flex;
   text-decoration: none;
   color: white;
   font-size: 10px;
@@ -81,9 +82,13 @@
 }
 
 .icon-download {
-  font-size: 10px;
+  font-size: 13px;
   text-align: left;
   margin-right: 5px;
+}
+
+.button-text {
+  font-weight: bold;
 }
 
 .arrow-down {
