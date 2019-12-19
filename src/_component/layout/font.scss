@@ -1,8 +1,8 @@
 @font-face {
   font-family: "icon";
-  src: url("asset/font/icon-v1.0/icon.ttf?wznzm1") format("truetype"),
-    url("asset/font/icon-v1.0/icon.woff?wznzm1") format("woff"),
-    url("asset/font/icon-v1.0/icon.svg?wznzm1#icon") format("svg");
+  src: url(#{$baseUrl}asset/font/icon-v1.0/icon.ttf?wznzm1) format("truetype"),
+    url(#{$baseUrl}asset/font/icon-v1.0/icon.woff?wznzm1) format("woff"),
+    url(#{$baseUrl}asset/font/icon-v1.0/icon.svg?wznzm1#icon) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
