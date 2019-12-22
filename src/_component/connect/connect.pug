@@ -1,0 +1,77 @@
+-
+    var headerName = 'Let\'s connect';
+    var imagePath = "asset/image/profile picture.png";
+    var socialList = [
+            {
+                url: 'https://www.facebook.com/profile.php?id=100008232734116',
+                icon: 'codetap', 
+                description: 'fhfhhfhf',
+            },
+            {
+                icon: 'github',
+                url: 'https://github.com/biancalina',
+                description: 'ghghgh',
+            },
+            {
+                url: 'https://www.linkedin.com/in/biancalina',
+                icon: 'linkedin',
+                description: 'uuuuu ',
+            },
+            {
+                icon: 'stackoverflow',
+                url: 'https://stackoverflow.com/users/12481414/bianca-andrei',
+                description: 'dhdhd',
+            },
+            {
+                url: 'https://www.udemy.com',
+                icon: 'udemy',
+                description: 'fhfhfhf',
+            },
+            {
+                icon: 'facebook',
+                url: 'https://www.facebook.com/profile.php?id=100008232734116',
+                description: 'djdjd',
+            },
+            {
+                icon: 'twitter',
+                url: 'https://twitter.com/ABianca0904',
+                description: ' jcjfjf',
+            },
+            {
+                icon: 'youtube',
+                url: 'https://youtube.com/UCGYp9uF9YAKt1U95pqF1dtQ',
+                description: 'dhdhhd',
+            }
+        ]
+
+.space
+.connect-box
+    h1.connect-title=headerName
+.connect
+    .space
+    button.youtube-button
+        a.link-access(href="https://www.youtube.com")
+            span.youtube-icon(class=`my-cv-youtube`)
+
+    .space
+    .hover-effect
+        .connect-avatar__wrapper
+            img.connect-avatar(src=imagePath)
+    .space
+
+
+c(span='row' span-tablet='4' span-desktop='8')
+  grid(columns-tablet='4' columns-desktop='8')
+    c(span='1')
+      ul.icon-list__social
+        each social, key in socialList
+            li.icon-list__item
+                label.icon-list__label(for=`message-box-id-${key}`)
+                    a.icon-list__link(href=social.url, target="_blank")
+                        //- span.icon-list__description=social.description
+                        span(class=`my-cv-${social.icon}`)
+
+    .space
+    button.button__disc
+        span.my-cv-arrow-down
+    .space
