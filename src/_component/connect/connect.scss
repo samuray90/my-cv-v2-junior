@@ -1,0 +1,40 @@
+.space[height="30"] {
+  height: 30px;
+}
+.space[height="10"] {
+  height: 10px;
+}
+
+.connect {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 36px;
+}
+.avatar-holder {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 5px #707070, 0 0 5px #e6e0e0;
+  border-radius: 6px;
+}
+
+.avatar {
+  width: 92%;
+  height: 92%;
+  border-radius: 6px;
+  margin-top: 11px;
+}
+
+.avatar-holder:hover {
+  transform: rotate(-2deg);
+}
+
+.link-item {
+  width: 40px;
+  height: 40px;
+  background-color: #1875f0;
+  border-radius: 50%;
+  line-height: 40px;
+}
