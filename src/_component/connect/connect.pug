@@ -6,7 +6,8 @@
                 title: "Github Account",
                 url: "https://github.com/BogdanNegura",
                 label: "GitHub",
-                text: "blablablablablablalbladasldnjasdkja"
+                text: "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+                iconUrl: "icon-link"
             }
         },
         {
@@ -15,7 +16,8 @@
                 title: "Linkedin Account",
                 url: "https://www.linkedin.com/",
                 label: "Linkedin",
-                text: "blablablablablablalbladasldnjasdkja"
+                text: "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+                iconUrl: "icon-link"
             }
         },
         {
@@ -24,7 +26,8 @@
                 title: "Skype Account",
                 url: "https://www.skype.com/",
                 label: "Skype",
-                text: "blablablablablablalbladasldnjasdkja"
+                text: "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+                iconUrl: "icon-link"
             }
         },
         {
@@ -33,7 +36,8 @@
                 title: "StackOverflow Account",
                 url: "https://stackoverflow.com/",
                 label: "StackOverflow",
-                text: "blablablablablablalbladasldnjasdkja"
+                text: "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+                iconUrl: "icon-link"
             }
         },
         {
@@ -42,7 +46,8 @@
                 title: "Instagram Account",
                 url: "https://www.instagram.com/",
                 label: "Instagram",
-                text: "blablablablablablalbladasldnjasdkja"
+                text: "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+                iconUrl: "icon-link"
             }
         },
         {
@@ -51,7 +56,8 @@
                 title: "Twitter Account",
                 url: "https://twitter.com/search/%7BsearchTerms%7D?source=desktop-search",
                 label: "Twitter",
-                text: "blablablablablablalbladasldnjasdkja"
+                text: "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+                iconUrl: "icon-link"
             }
         },
         {
@@ -60,7 +66,8 @@
                 title: "Youtube Account",
                 url: "https://www.youtube.com/",
                 label: "Youtube",
-                text: "blablablablablablalbladasldnjasdkja"
+                text: "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+                iconUrl: "icon-link"
             }
         },
         {
@@ -69,7 +76,8 @@
                 title: "Codewars Account",
                 url: "https://www.codewars.com/users/Bogdan%20Negura",
                 label: "Codewars",
-                text: "blablablablablablalbladasldnjasdkja"
+                text: "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+                iconUrl: "icon-link"
             }
         },
         {
@@ -78,7 +86,8 @@
                 title: "Undemy Account",
                 url: "https://www.udemy.com/",
                 label: "Udemy",
-                text: "blablablablablablalbladasldnjasdkja"
+                text: "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+                iconUrl: "icon-link"
             }
         }
     ]
@@ -92,12 +101,33 @@
     .avatar-holder
         img.avatar(src="../../asset/image/avatar/avatar_2.jpg", alt="something went wrong")
     .space(height="30")
-    .media-link__list
-        each button in buttonList
-            .link-item(class=button.icon)
-            .drop-description
-                h3=button.description.title
-                p=button.description.text
-                a.media-link(href=button.description.url)=button.description.label
+
+
+    ul.social-media__list
+        each button, key in buttonList
+            li.social-icons
+                label.social-icons__label(for=`message-id-${key}`)
+                    span(class=button.icon)
+    .space(height="30")
+
+
+    .social-media__body
+        input.input-item(type="radio", checked name="radio-input", id="default-message-radio")
+        each button, key in buttonList
+            input.input-item(type="radio", name="radio-input", id=`message-id-${key}`)
+            .description
+                .input-item__header
+                    h3.title-description=button.description.title
+                    label.input-item__close(for="default-message-radio") &times;
+                .paragraph-description
+                    p.paragraph=button.description.text
+                .icon-url__wrapper
+                    .icon-url
+                        span(class=button.description.iconUrl)
+                        a.media-link(href=button.description.url)=button.description.label
+    .space(height="30")
+    .arrow-down
+        span(class=`icon-arrow-down`)
+
 
 
