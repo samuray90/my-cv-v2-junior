@@ -1,10 +1,12 @@
 
-* {
+body {
   box-sizing: border-box;
 }
-.connect {
+
+.connect-section {
   @extend %align-items;
 }
+
 .connect-title {
 @extend %red-box;
 @extend %font;
@@ -30,56 +32,10 @@
 
 .hover-effect {
   border-radius: 7px;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
 }
 
 .hover-effect:hover {
-  -webkit-transform: rotate(-5deg);
   transform: rotate(-5deg);
 }
 
-
-.connect__social {
-    
-}
-
-
-a[class^="icon-list__"] {
-  width: 100%;
-  padding-top: 100%;
-  border-radius: 50%;
-  display: block;
-  position: relative;
-  background-color: #1875F0;
-}
-
-a[class^="icon-list__"] > [class^="my-cv-"] {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
-a[class^="icon-list__"] > [class^="my-cv-"]::before {
-  font-size: 8vw;
-}
-
-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-}
-
-grid > c[span="row"] {
-  grid-column: 1 / -1;
-}
-
-c[span="1"] {
-  grid-column-end: span 1;
-}

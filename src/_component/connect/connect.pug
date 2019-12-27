@@ -3,51 +3,92 @@
     var imagePath = "asset/image/profile picture.png";
     var socialList = [
             {
-                url: 'https://www.facebook.com/profile.php?id=100008232734116',
-                icon: 'codetap', 
-                description: 'fhfhhfhf',
+                icon: 'codetap',
+                content: {
+                    title: 'CodeTap',
+                    url: 'https://www.facebook.com/profile.php?id=100008232734116',
+                    description: 'fhfhhfhf',
+                    secondTitle: 'CodeTap Profile',
+                    linkIcon: 'link',
+                }
             },
             {
                 icon: 'github',
-                url: 'https://github.com/biancalina',
-                description: 'ghghgh',
+                content: {
+                    title: 'Github',
+                    url: 'https://github.com/biancalina',
+                    description: 'ghghgh',
+                    secondTitle: 'Github Profile',
+                    linkIcon: 'link',
+                }
             },
             {
-                url: 'https://www.linkedin.com/in/biancalina',
                 icon: 'linkedin',
-                description: 'uuuuu ',
+                content: {
+                    title: 'Linkedin',
+                    url: 'https://www.linkedin.com/in/biancalina',
+                    description: 'uuuuu',
+                    secondTitle: 'Linkedin Profile',
+                    linkIcon: 'link',
+                }
             },
             {
                 icon: 'stackoverflow',
-                url: 'https://stackoverflow.com/users/12481414/bianca-andrei',
-                description: 'dhdhd',
+                content: {
+                    title: 'Stackoverflow',
+                    url: 'https://stackoverflow.com/users/12481414/bianca-andrei',
+                    description: 'dhdhd',
+                    secondTitle: 'Stackoverflow Profile',
+                    linkIcon: 'link',
+                }
             },
             {
-                url: 'https://www.udemy.com',
                 icon: 'udemy',
-                description: 'fhfhfhf',
+                content: {
+                    title: 'Udemy',
+                    url: 'https://www.udemy.com',
+                    description: 'fhfhfhf',
+                    secondTitle: 'Udemy Profile',
+                    linkIcon: 'link',
+                }
             },
             {
                 icon: 'facebook',
-                url: 'https://www.facebook.com/profile.php?id=100008232734116',
-                description: 'djdjd',
+                content: {
+                    title: 'Facebook',
+                    url: 'https://www.facebook.com/profile.php?id=100008232734116',
+                    description: 'djdjd',
+                    secondTitle: 'Facebook Profile',
+                    linkIcon: 'link',
+                }
             },
             {
                 icon: 'twitter',
-                url: 'https://twitter.com/ABianca0904',
-                description: ' jcjfjf',
+                content: {
+                    title: 'Twitter',
+                    url: 'https://twitter.com/ABianca0904',
+                    description: 'ssjcjfjf',
+                    secondTitle: 'Twitter Profile',
+                    linkIcon: 'link',
+                }
             },
             {
                 icon: 'youtube',
-                url: 'https://youtube.com/UCGYp9uF9YAKt1U95pqF1dtQ',
-                description: 'dhdhhd',
+                content: {
+                    title: 'YouTube',
+                    url: 'https://youtube.com/UCGYp9uF9YAKt1U95pqF1dtQ',
+                    description: 'dhdhhd',
+                    secondTitle: 'YouTube Profile',
+                    linkIcon: 'link',
+                }
             }
         ]
 
 .space
 .connect-box
     h1.connect-title=headerName
-.connect
+
+.connect-section
     .space
     button.youtube-button
         a.link-access(href="https://www.youtube.com")
@@ -60,18 +101,32 @@
     .space
 
 
-c(span='row' span-tablet='4' span-desktop='8')
-  grid(columns-tablet='4' columns-desktop='8')
-    c(span='1')
-      ul.icon-list__social
+
+    ul.icon-list__social
         each social, key in socialList
             li.icon-list__item
                 label.icon-list__label(for=`message-box-id-${key}`)
-                    a.icon-list__link(href=social.url, target="_blank")
-                        //- span.icon-list__description=social.description
-                        span(class=`my-cv-${social.icon}`)
-
+                    span(class=`my-cv-${social.icon}`)
     .space
+
+    .social-media__box
+        input.click-item(type="radio", checked name="radio-input", id="default-message-radio")
+        each social, key in socialList
+            input.click-item(type="radio", name="radio-input", id=`message-id-${key}`)
+            .description-box
+                .title
+                    h4.title=social.content.title
+                    label.close-window(for="default-message-radio") &times;
+                .description
+                    p.text=social.content.description
+                .link-access__button
+                    .link-access
+                        span(class=social.content.linkIcon)
+                        a.icon-list__link(href=social.content.url, target="_blank")=social.content.secondTitle
+
+
     button.button__disc
         span.my-cv-arrow-down
     .space
+
+
