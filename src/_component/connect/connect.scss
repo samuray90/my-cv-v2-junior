@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 
-.space[height="30"] {
-  height: 30px;
-}
-.space[height="10"] {
-  height: 10px;
-}
-
 .connect {
   position: relative;
   display: flex;
@@ -132,6 +125,7 @@
   .media-link {
     text-decoration: none;
     color: white;
+    font-family: "Roboto:500", sans-serif;
   }
   .media-link:hover {
     font-size: 11px;
