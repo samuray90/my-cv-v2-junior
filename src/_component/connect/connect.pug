@@ -3,13 +3,12 @@
     var imagePath = "asset/image/profile picture.png";
     var socialList = [
             {
-                icon: 'codetap',
+                icon: 'instagram',
                 content: {
-                    title: 'CodeTap',
-                    url: 'https://www.facebook.com/profile.php?id=100008232734116',
-                    description: 'fhfhhfhf',
-                    secondTitle: 'CodeTap Profile',
-                    linkIcon: 'link',
+                    title: 'Instagram',
+                    url: 'https://www.instagram.com',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
+                    secondTitle: 'Instagram Profile',
                 }
             },
             {
@@ -17,9 +16,8 @@
                 content: {
                     title: 'Github',
                     url: 'https://github.com/biancalina',
-                    description: 'ghghgh',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have aI bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
                     secondTitle: 'Github Profile',
-                    linkIcon: 'link',
                 }
             },
             {
@@ -27,9 +25,8 @@
                 content: {
                     title: 'Linkedin',
                     url: 'https://www.linkedin.com/in/biancalina',
-                    description: 'uuuuu',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
                     secondTitle: 'Linkedin Profile',
-                    linkIcon: 'link',
                 }
             },
             {
@@ -37,9 +34,8 @@
                 content: {
                     title: 'Stackoverflow',
                     url: 'https://stackoverflow.com/users/12481414/bianca-andrei',
-                    description: 'dhdhd',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
                     secondTitle: 'Stackoverflow Profile',
-                    linkIcon: 'link',
                 }
             },
             {
@@ -47,9 +43,8 @@
                 content: {
                     title: 'Udemy',
                     url: 'https://www.udemy.com',
-                    description: 'fhfhfhf',
+                    description: 'fI bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
                     secondTitle: 'Udemy Profile',
-                    linkIcon: 'link',
                 }
             },
             {
@@ -57,9 +52,8 @@
                 content: {
                     title: 'Facebook',
                     url: 'https://www.facebook.com/profile.php?id=100008232734116',
-                    description: 'djdjd',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
                     secondTitle: 'Facebook Profile',
-                    linkIcon: 'link',
                 }
             },
             {
@@ -67,9 +61,8 @@
                 content: {
                     title: 'Twitter',
                     url: 'https://twitter.com/ABianca0904',
-                    description: 'ssjcjfjf',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
                     secondTitle: 'Twitter Profile',
-                    linkIcon: 'link',
                 }
             },
             {
@@ -77,17 +70,16 @@
                 content: {
                     title: 'YouTube',
                     url: 'https://youtube.com/UCGYp9uF9YAKt1U95pqF1dtQ',
-                    description: 'dhdhhd',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
                     secondTitle: 'YouTube Profile',
-                    linkIcon: 'link',
                 }
             }
         ]
 
-.space
+
+
 .connect-box
     h1.connect-title=headerName
-
 .connect-section
     .space
     button.youtube-button
@@ -115,16 +107,16 @@
             input.click-item(type="radio", name="radio-input", id=`message-id-${key}`)
             .description-box
                 .title
-                    h4.title=social.content.title
+                    h2.title-name=social.content.title
                     label.close-window(for="default-message-radio") &times;
                 .description
                     p.text=social.content.description
                 .link-access__button
-                    .link-access
-                        span(class=social.content.linkIcon)
-                        a.icon-list__link(href=social.content.url, target="_blank")=social.content.secondTitle
+                    .access-link
+                        span.my-cv-link
+                        a.icon-list__link(href=social.content.url)=social.content.secondTitle
 
-
+    .space
     button.button__disc
         span.my-cv-arrow-down
     .space
