@@ -7,9 +7,33 @@
 html,
 body {
   height: 100%;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Roboto";
   background: #f5f5f5;
+}
+
+.red-box {
+  background: #d52027;
+  height: 60px;
+  line-height: 60px;
+}
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  padding: 0 50px;
+  height: 60px;
+  width: 85%;
+  margin: auto;
+  box-shadow: 0 0 2px #000000, 0 0 10px #707070;
+}
+
+.space[height="30"] {
+  height: 30px;
+}
+.space[height="10"] {
+  height: 10px;
 }
