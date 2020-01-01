@@ -46,32 +46,42 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-
 }
 
 
 .icon-list__item {
-    // display: inline-block;
+    display: block;
     // list-style: none;
     border-radius: 50%;
     width: 100%;
-    height: 100%;
+    padding-top: 100%;
     position: relative;
     font-size: 22px;
     line-height: 50px;
-    cursor: pointer;
     color: $color-white;
     background-color: $color-azure-radiance;
 
-
     &:hover {
         background-color: $color-alizarin-crimson;
-        ;
     }
 }
 
+.icon-list__label {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    cursor: pointer;
+}
+
 .description-box {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background-color: $color-white;
@@ -83,6 +93,10 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 15px;
+}
+
+.click-item:checked + .description-box {
+    display: inherit
 }
 
 .click-item {
@@ -98,6 +112,7 @@
   color: $color-white;
   font-size: 20px;
   line-height: 26px;
+  cursor: pointer;
 }
 
 .description {
@@ -124,7 +139,7 @@
 }
 
 .title-name {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .link-access__button  {
@@ -138,31 +153,30 @@
     background: $color-azure-radiance;
     display: flex;
     justify-content: space-around;
-    height: 30px;
-    width: 130px;
+    height: 20px;
+    width: 100px;
     align-items: center;
     border-radius: 25px;
     padding: 10px 24px;
 
-    .icon-list__link,
-    .my-cv-link {
-        color: $color-white;
-        text-decoration: none;
-        line-height: 20;
-        }
     .icon-list__link {
         font-size: 10px;
+        color: $color-white;;
+        text-decoration: none;
         }
     .my-cv-link {
         font-size: 15px;
+        color: $color-white;
     }
 }
 
-// .click-item + .description-box {
-//     display: none;
-//   }
-  
-//   #default-message-radio:checked + .input-item__header {
-//     display: none;
-//   }
+.click-item + .description-box {
+    display: none;
+}
+
+#default-message-radio:checked + .title {
+    display: none;
+}
+
+
 

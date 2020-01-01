@@ -104,7 +104,7 @@
     .social-media__box
         input.click-item(type="radio", checked name="radio-input", id="default-message-radio")
         each social, key in socialList
-            input.click-item(type="radio", name="radio-input", id=`message-id-${key}`)
+            input.click-item(type="radio", name="radio-input", id=`message-box-id-${key}`)
             .description-box
                 .title
                     h2.title-name=social.content.title
