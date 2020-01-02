@@ -1,6 +1,7 @@
 -
     var headerName = 'Let\'s connect';
     var imagePath = "asset/image/profile picture.png";
+    var altImage = "Here should be my profile picture.";
     var socialList = [
             {
                 icon: 'instagram',
@@ -8,7 +9,7 @@
                     title: 'Instagram',
                     url: 'https://www.instagram.com',
                     description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
-                    secondTitle: 'Instagram Profile',
+                    secondTitle: 'Instagram Profile'
                 }
             },
             {
@@ -17,7 +18,7 @@
                     title: 'Github',
                     url: 'https://github.com/biancalina',
                     description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have aI bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
-                    secondTitle: 'Github Profile',
+                    secondTitle: 'Github Profile'
                 }
             },
             {
@@ -26,7 +27,7 @@
                     title: 'Linkedin',
                     url: 'https://www.linkedin.com/in/biancalina',
                     description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
-                    secondTitle: 'Linkedin Profile',
+                    secondTitle: 'Linkedin Profile'
                 }
             },
             {
@@ -35,7 +36,7 @@
                     title: 'Stackoverflow',
                     url: 'https://stackoverflow.com/users/12481414/bianca-andrei',
                     description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
-                    secondTitle: 'Stackoverflow Profile',
+                    secondTitle: 'Stackoverflow Profile'
                 }
             },
             {
@@ -44,16 +45,16 @@
                     title: 'Udemy',
                     url: 'https://www.udemy.com',
                     description: 'fI bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
-                    secondTitle: 'Udemy Profile',
+                    secondTitle: 'Udemy Profile'
                 }
             },
             {
                 icon: 'facebook',
                 content: {
                     title: 'Facebook',
-                    url: 'https://www.facebook.com/profile.php?id=100008232734116',
+                    url: 'https://www.facebook.com/biancalina19',
                     description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
-                    secondTitle: 'Facebook Profile',
+                    secondTitle: 'Facebook Profile'
                 }
             },
             {
@@ -62,7 +63,7 @@
                     title: 'Twitter',
                     url: 'https://twitter.com/ABianca0904',
                     description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
-                    secondTitle: 'Twitter Profile',
+                    secondTitle: 'Twitter Profile'
                 }
             },
             {
@@ -71,25 +72,24 @@
                     title: 'YouTube',
                     url: 'https://youtube.com/UCGYp9uF9YAKt1U95pqF1dtQ',
                     description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
-                    secondTitle: 'YouTube Profile',
+                    secondTitle: 'YouTube Profile'
                 }
             }
         ]
 
-
-
+#connect
 .connect-box
     h1.connect-title=headerName
 .connect-section
     .space
     button.youtube-button
         a.link-access(href="https://www.youtube.com")
-            span.youtube-icon(class=`my-cv-youtube`)
+            span.youtube-icon(class="my-cv-youtube")
 
     .space
     .hover-effect
         .connect-avatar__wrapper
-            img.connect-avatar(src=imagePath)
+            img.connect-avatar(src=imagePath alt=altImage)
     .space
 
 
