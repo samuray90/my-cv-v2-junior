@@ -1,0 +1,164 @@
+.skills {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 36px;
+}
+
+.subtitle {
+  align-items: left;
+}
+
+.legend-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.legend {
+  width: 302px;
+  height: 130px;
+  border: 2px solid #707070;
+  border-radius: 6px;
+  align-items: center;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  display: flex;
+  justify-content: space-between;
+  height: 42.5px;
+  line-height: 42.5px;
+  vertical-align: center;
+  padding: 0 10px;
+}
+
+.row-1,
+.row-2 {
+  border-bottom: 2px solid #707070;
+}
+
+.group {
+  display: flex;
+}
+
+.text {
+  margin-left: 20px;
+}
+
+.icon-heart {
+  color: #d52027;
+}
+
+.icon-trophy {
+  color: #50d166;
+}
+
+.icon-book {
+  color: #f18f1c;
+}
+
+.text {
+  color: #666666;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.number {
+  color: #707070;
+}
+
+.skills-front-end,
+.skills-back-end,
+.skills-others {
+  display: inline-block;
+  flex-direction: row;
+  text-align: left;
+  margin: 0 10px 0 5px;
+}
+
+.front-end,
+.back-end,
+.others {
+  padding: 9px 18px;
+  border-radius: 20px;
+  margin-right: 10px;
+  line-height: 45px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.front-end:hover,
+.back-end:hover,
+.others:hover {
+  font-size: 13px;
+  cursor: pointer;
+  border: 2px solid #707070;
+}
+
+.front-end:nth-child(1),
+.front-end:nth-child(2),
+.front-end:nth-child(3),
+.front-end:nth-child(7) {
+  background-color: #d52027;
+}
+
+.front-end:nth-child(4),
+.front-end:nth-child(6) {
+  background-color: #50d166;
+}
+
+.front-end:nth-child(8) {
+  background-color: #f18f1c;
+}
+
+.back-end:nth-child(1),
+.back-end:nth-child(4) {
+  background-color: #d52027;
+}
+
+.back-end:nth-child(2),
+.back-end:nth-child(5) {
+  background-color: #50d166;
+}
+
+.back-end:nth-child(3),
+.back-end:nth-child(6) {
+  background-color: #f18f1c;
+}
+
+.others:nth-child(1),
+.others:nth-child(6) {
+  background-color: #d52027;
+}
+
+.others:nth-child(2),
+.others:nth-child(3) {
+  background-color: #50d166;
+}
+
+.others:nth-child(4),
+.others:nth-child(5) {
+  background-color: #f18f1c;
+}
+
+.paragraph-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph {
+  width: 300px;
+  height: 100px;
+  box-shadow: 0 0 5px #707070, 0 0 5px #e6e0e0;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: left;
+  line-height: 1.6;
+  color: #707070;
+  font-family: "Roboto";
+  font-weight: max($numbers: 500);
+}
