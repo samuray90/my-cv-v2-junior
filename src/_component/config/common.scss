@@ -1,0 +1,30 @@
+%red-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  color: $color-white;
+  height: 60px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 0 7px $color-dove-gray;
+}
+
+%circle {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+}
+
+%align-items {
+  text-align: center;
+  align-items: center;
+  margin: 0 37px;
+}
+
+%red-header {
+  background: $color-alizarin-crimson;
+  height: 60px;
+  line-height: 60px;
+}
