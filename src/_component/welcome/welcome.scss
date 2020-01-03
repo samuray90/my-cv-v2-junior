@@ -4,7 +4,7 @@
 
 .header_title {
   @extend %red-header;
-  @extend %font;
+  font-weight: 500;
 }
 
 .welcome-page__header {
@@ -28,7 +28,7 @@
   font-weight: medium;
   line-height: 64px;
   color: $color-dove-gray;
-  @extend %font;
+  font-weight: 500;
 }
 
 .welcome-title {
@@ -36,7 +36,7 @@
   font-weight: medium;
   color: $color-dove-gray;
   line-height: 48px;
-  @extend %font;
+  font-weight: 500;
 }
 
 .about-me__title {
@@ -45,7 +45,7 @@
   color: $color-dove-gray;
   margin-left: 20px;
   padding: 0 20px;
-  @extend %font;
+  font-weight: 500;
 
 }
 
@@ -61,7 +61,7 @@
   font-size: 14px;
   line-height: 30px;
   color: $color-dove-gray;
-  @extend %font;
+  font-weight: 500;
 }
 
 .download__wrapper {
@@ -77,13 +77,13 @@
   color: $color-white;
   font-size: 10px;
   line-height: 40px;
-  @extend %font;
+  font-weight: 500;
 }
 
 .my-cv-download {
   color: $color-white;
   padding: 10px;
-  @extend %font;
+  font-weight: 500;
 }
 
 .button__disc {
