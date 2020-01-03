@@ -1,0 +1,124 @@
+-
+    var headerName = 'Let\'s connect';
+    var imagePath = "asset/image/profile picture.png";
+    var altImage = "Here should be my profile picture.";
+    var socialList = [
+            {
+                icon: 'instagram',
+                content: {
+                    title: 'Instagram',
+                    url: 'https://www.instagram.com',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
+                    secondTitle: 'Instagram Profile'
+                }
+            },
+            {
+                icon: 'github',
+                content: {
+                    title: 'Github',
+                    url: 'https://github.com/biancalina',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have aI bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
+                    secondTitle: 'Github Profile'
+                }
+            },
+            {
+                icon: 'linkedin',
+                content: {
+                    title: 'Linkedin',
+                    url: 'https://www.linkedin.com/in/biancalina',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
+                    secondTitle: 'Linkedin Profile'
+                }
+            },
+            {
+                icon: 'stackoverflow',
+                content: {
+                    title: 'Stackoverflow',
+                    url: 'https://stackoverflow.com/users/12481414/bianca-andrei',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
+                    secondTitle: 'Stackoverflow Profile'
+                }
+            },
+            {
+                icon: 'udemy',
+                content: {
+                    title: 'Udemy',
+                    url: 'https://www.udemy.com',
+                    description: 'fI bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
+                    secondTitle: 'Udemy Profile'
+                }
+            },
+            {
+                icon: 'facebook',
+                content: {
+                    title: 'Facebook',
+                    url: 'https://www.facebook.com/biancalina19',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
+                    secondTitle: 'Facebook Profile'
+                }
+            },
+            {
+                icon: 'twitter',
+                content: {
+                    title: 'Twitter',
+                    url: 'https://twitter.com/ABianca0904',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
+                    secondTitle: 'Twitter Profile'
+                }
+            },
+            {
+                icon: 'youtube',
+                content: {
+                    title: 'YouTube',
+                    url: 'https://youtube.com/UCGYp9uF9YAKt1U95pqF1dtQ',
+                    description: 'I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.',
+                    secondTitle: 'YouTube Profile'
+                }
+            }
+        ]
+
+#connect
+.connect-box
+    h1.connect-title=headerName
+.connect-section
+    .space
+    button.youtube-button
+        a.link-access(href="https://www.youtube.com")
+            span.youtube-icon(class="my-cv-youtube")
+
+    .space
+    .hover-effect
+        .connect-avatar__wrapper
+            img.connect-avatar(src=imagePath alt=altImage)
+    .space
+
+
+
+    ul.icon-list__social
+        each social, key in socialList
+            li.icon-list__item
+                label.icon-list__label(for=`message-box-id-${key}`)
+                    span(class=`my-cv-${social.icon}`)
+    .space
+
+    .social-media__box
+        input.click-item(type="radio", checked name="radio-input", id="default-message-radio")
+        each social, key in socialList
+            input.click-item(type="radio", name="radio-input", id=`message-box-id-${key}`)
+            .description-box
+                .title
+                    h2.title-name=social.content.title
+                    label.close-window(for="default-message-radio") &times;
+                .description
+                    p.text=social.content.description
+                .link-access__button
+                    .access-link
+                        span.my-cv-link
+                        a.icon-list__link(href=social.content.url)=social.content.secondTitle
+
+    .space
+    button.button__disc
+        span.my-cv-arrow-down
+    .space
+
+

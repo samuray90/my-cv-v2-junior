@@ -1,39 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
-
-%circle {
-  height: 40px;
-  width: 40px;
-  border: none;
-  border-radius: 50%;
-}
-
-%font {
-  font-family: 'Roboto';
-  font-weight: 500;
-}
-
 .welcome-page {
-  text-align: center;
-  align-items: center;
-  margin: 0 37px;
+  @extend %align-items;
 }
 
 .header_title {
-  background: $color-alizarin-crimson;
-  height: 60px;
-  line-height: 60px;
+  @extend %red-header;
   @extend %font;
 }
 
 .welcome-page__header {
-  justify-content: center;
-  text-align: center;
-  font-size: 24px;
-  color: $color-white;
-  height: 60px;
-  width: 80%;
-  margin: auto;
-  box-shadow: 0 0 7px $color-dove-gray;
+  @extend %red-box;
 }
 
 .youtube-button {
