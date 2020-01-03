@@ -1,0 +1,156 @@
+.skills-box {
+  @extend %red-header;
+}
+
+.skills-title {
+  @extend %red-box;
+  font-weight: 500;
+}
+
+.skills-section {
+  @extend %align-items;
+  position: relative;
+}
+
+.youtube-button {
+  background-color: $color-alizarin-crimson;
+  @extend %circle; 
+}
+
+.link-access {
+  color: $color-white;
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
+}
+
+.legend-title {
+  color: $color-gray;
+  margin: 0;
+  text-align: initial;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.skills-row {
+  border: 2px solid $color-dove-gray;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.skills-item {
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.skills-item:not(:last-child) {
+  border-bottom: 2px solid $color-dove-gray;
+}
+
+.my-cv-heart {
+  color: $color-alizarin-crimson;
+}
+
+.my-cv-trophy {
+  color: $color-emerald;
+}
+
+.my-cv-book {
+  color: $color-carrot-orange;
+}
+
+.skill-description {
+  padding: 10px 10px;
+  flex-grow: 1;
+  text-align: initial;
+  font-size: 12px;
+  line-height: 20;
+  color: $color-dusty-gray;
+  font-weight: 500;
+}
+
+.number {
+  padding-right: 10px;
+  color: $color-dove-gray1;
+}
+
+.front-end__skill,
+.back-end__skill,
+.other__skill {
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 20px;
+  border: none;
+  color: $color-white;
+  font-size: 9px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.skill__title {
+  font-size: 22px;
+  font-weight: 500;
+  color: $color-gray;
+  text-align: initial;
+}
+
+.skill__list {
+  text-align: initial;
+}
+
+.front-end__skill:nth-child(1),
+.front-end__skill:nth-child(2),
+.front-end__skill:nth-child(3),
+.front-end__skill:nth-child(4) {
+  background: $color-alizarin-crimson;
+}
+
+.front-end__skill:nth-child(5),
+.front-end__skill:nth-child(6) {
+  background: $color-emerald;
+}
+
+.front-end__skill:nth-child(7),
+.front-end__skill:nth-child(8) {
+  background: $color-carrot-orange;
+}
+
+.back-end__skill:nth-child(1),
+.back-end__skill:nth-child(3) {
+  background: $color-alizarin-crimson;
+}
+
+.back-end__skill:nth-child(2),
+.back-end__skill:nth-child(5) {
+  background: $color-emerald;
+}
+
+.back-end__skill:nth-child(4) {
+  background: $color-carrot-orange;
+}
+
+.other__skill:nth-child(1),
+.other__skill:nth-child(2) {
+  background: $color-emerald;
+}
+
+.other__skill:nth-child(3) {
+  background: $color-alizarin-crimson;
+}
+
+.other__skill:nth-child(4) {
+  background: $color-carrot-orange;
+}
+
+.paragraph__box {
+  @extend %border;
+}
+
+.some-text {
+  @extend %border-content
+}

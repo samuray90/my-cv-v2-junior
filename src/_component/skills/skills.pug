@@ -1,0 +1,98 @@
+-
+  var headerName = "Skills";
+  var tableName = "Legend";
+  var frontEndList = [
+    {
+      title: 'Front End',
+      skillList: [
+        'HTML5',
+        'CSS3',
+        'JavaScript',
+        'React',
+        'jQuery',
+        'JSON',
+        'SASS',
+        'Bootstrap'
+      ]
+    }
+  ]
+  var backEndList = [
+    {
+      title: 'Back End',
+      skillList: [
+        'PUG',
+        'GIT',
+        'NodeJS',
+        'MySQL',
+        'Less'
+
+      ]
+    }
+  ]
+  var otherList = [
+    {
+      title: 'Other',
+      skillList: [
+        'JADE',
+        'Gulp',
+        'JSON',
+        'Windows'
+      ]
+    }
+  ]
+
+#skills
+.skills-box
+    h1.skills-title=headerName
+.skills-section
+    .space
+    button.youtube-button
+        a.link-access(href="https://www.youtube.com")
+            span.youtube-icon(class="my-cv-youtube")
+    .space
+
+    h2.legend-title=tableName
+    .table
+        ul.skills-row
+            li.skills-item
+                span.my-cv-heart
+                span.skill-description Skills I love
+                span.number 1
+            li.skills-item
+                span.my-cv-trophy
+                span.skill-description Skills I'm goot at
+                span.number 2
+            li.skills-item
+                span.my-cv-book
+                span.skill-description Skills I'd love to get better at
+                span.number 3
+
+    .skills__box
+        each frontEnd in frontEndList
+            .skill__title=frontEnd.title
+            .skill__list
+                each skill in frontEnd.skillList
+                    button.front-end__skill=skill
+
+        .space
+        each backEnd in backEndList
+            .skill__title=backEnd.title
+            .skill__list
+                each skill in backEnd.skillList
+                    button.back-end__skill=skill
+
+        .space
+        each other in otherList
+            .skill__title=other.title
+            .skill__list
+                each skill in other.skillList
+                    button.other__skill=skill
+        .space
+
+    .paragraph__box
+        p.some-text If you're already a front-end developer, well, pretend you're also wearing a pirate hat.
+    .space
+
+    button.button__disc
+        span.my-cv-arrow-down
+    .space

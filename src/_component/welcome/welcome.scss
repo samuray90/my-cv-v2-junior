@@ -50,18 +50,11 @@
 }
 
 .box-paragraph {
-  background-color: $color-alabaster;
-  padding: 20px;
-  box-shadow: 0 3px 8px $color-black;
-  border-radius: 6px;
+  @extend %border;
 }
 
 .paragraph-description {
-  text-align: initial;
-  font-size: 14px;
-  line-height: 30px;
-  color: $color-dove-gray;
-  font-weight: 500;
+  @extend %border-content
 }
 
 .download__wrapper {
