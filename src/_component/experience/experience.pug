@@ -2,20 +2,32 @@
     var experienceList = [
         {
             position: "Junior Developer",
-            logo: 'asset/company-logo/arcadia.png',
+            logo: "/asset/company-logo/arcadia.png",
             company: "Arcadia",
             description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
         },
         {
             position: "Rect Developer",
-            logo: "asset/company-logo/argus.png",
+            logo: "/asset/company-logo/argus.png",
             company: "Argus",
             description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
         },
         {
             position: "Rect Developer",
-            logo: "asset/company-logo/big-telematics.png",
+            logo: "/asset/company-logo/big-telematics.png",
             company: "Telematics",
+            description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
+        },
+        {
+            position: "Rect Developer",
+            logo: "/asset/company-logo/big-telematics.png",
+            company: "Chemist-Direct",
+            description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
+        },
+        {
+            position: "Rect Developer",
+            logo: "/asset/company-logo/big-telematics.png",
+            company: "Solera",
             description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
         },
     ]
@@ -31,46 +43,27 @@
                 span.youtube-icon(class=`icon-youtube`)
     .space(height="30")
 
-    input.experience-input(type="radio" name="grouped-inputs" checked id="experience-default")
+    input.experience-input(type="checkbox" name="grouped-inputs" checked id="experience-default")
     label.experience-description__close(for="experience-default")
     ul.header-experience__list
         each experience, key in experienceList
             li.header-experience__item
                 label.header-experience-label(for=`experience-id-${key}`)
-                    img.header-experience__logo(src="https://via.placeholder.com/150")
+                    .header-experience__logo
+                        img(src=experience.logo)
                     .header-experience__wrapper
                         .header-experience__position=experience.position
                         .header-experience__company=experience.company
-                    span.icon-arrow-down
-                input.experience-input(type="radio" name="grouped-inputs" id=`experience-id-${key}`)
+                    .header-action__arrow
+                        .icon-arrow-up
+                input.experience-input(type="checkbox" name="grouped-inputs" id=`experience-id-${key}`)
                 .experience-description
-                    p I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development.
-
-
-
-
-
-    //- input.experience__input(type="radio", name="grouped-inputs", id="experience-default", checked)
-    //- lable.experience-close(for="experience-default")
-
-    //- ul.experience__content-wrapper
-    //-     each experience, key in experienceList
-    //-         li.experience__content-item
-    //-             input.experience__input(type="radio", name="grouped-inputs", id=`experience-id-${key}`)
-    //-             lable.experience-arrow(for=`experience-id-${key}`)
-    //-                 img.experience__logo(src="https://via.placeholder.com/150")
-    //-                 .experience-header__wrapper
-    //-                     .experience__position=experience.position
-    //-                     .experience__company=experience.company
-    //-                 span.icon-arrow-down
-    //-         .experience-description
-    //-             p.experience-text I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development.
-
-    .space(height="30")
+                    p=experience.description
     
+    .space(height="30")
+    .space(height="30")
     .arrow-down
         span(class=`icon-arrow-down`)
-
     .space(height="30")
     .space(height="30")
 
