@@ -28,3 +28,18 @@
   height: 60px;
   line-height: 60px;
 }
+
+%border {
+  background-color: $color-alabaster;
+  padding: 20px;
+  box-shadow: 0 3px 8px $color-black;
+  border-radius: 6px;
+}
+
+%border-content {
+  text-align: initial;
+  font-size: 14px;
+  line-height: 30px;
+  color: $color-dove-gray;
+  font-weight: 500;
+}
