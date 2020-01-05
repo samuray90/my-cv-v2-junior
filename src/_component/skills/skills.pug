@@ -41,10 +41,10 @@
     }
   ]
 
-#skills
-.skills-box
+#skill
+.skill-box
     h1.skills-title=headerName
-.skills-section
+.skill-section
     .space
     button.youtube-button
         a.link-access(href="https://www.youtube.com")
@@ -53,7 +53,7 @@
 
     h2.legend-title=tableName
     .skill-table
-        ul.skills-row
+        ul.skill-row
             li.skills-item
                 span.my-cv-heart
                 span.skill-description Skills I love
@@ -67,7 +67,7 @@
                 span.skill-description Skills I'd love to get better at
                 span.skill-number 3
 
-    .skills__box
+    .skill__box
         each frontEnd in frontEndList
             .skill__title=frontEnd.title
             .skill__list

@@ -1,13 +1,13 @@
-.skills-box {
+.skill-box {
   @extend %red-header;
 }
 
-.skills-title {
+.skill-title {
   @extend %red-box;
   font-weight: 500;
 }
 
-.skills-section {
+.skill-section {
   @extend %align-items;
   position: relative;
 }
@@ -32,21 +32,21 @@
   font-weight: 500;
 }
 
-.skills-row {
+.skill-row {
   border: 2px solid $color-dove-gray;
   border-radius: 15px;
   overflow: hidden;
   margin: 20px 0;
 }
 
-.skills-item {
+.skill-item {
   height: 30px;
   padding: 10px;
   display: flex;
   align-items: center;
 }
 
-.skills-item:not(:last-child) {
+.skill-item:not(:last-child) {
   border-bottom: 2px solid $color-dove-gray;
 }
 
