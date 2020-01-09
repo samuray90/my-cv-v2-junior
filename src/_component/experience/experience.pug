@@ -2,34 +2,34 @@
     var experienceList = [
         {
             position: "Junior Developer",
-            logo: "/asset/company-logo/arcadia.png",
+            logo: "../asset/image/arcadia.png",
             company: "Arcadia",
             description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
         },
         {
             position: "Rect Developer",
-            logo: "/asset/company-logo/argus.png",
+            logo: "../asset/image/argus.png",
             company: "Argus",
             description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
         },
         {
             position: "Rect Developer",
-            logo: "/asset/company-logo/big-telematics.png",
+            logo: "../asset/image/big-telematics.png",
             company: "Telematics",
             description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
         },
         {
             position: "Rect Developer",
-            logo: "/asset/company-logo/big-telematics.png",
+            logo: "../asset/image/big-telematics.png",
             company: "Chemist-Direct",
             description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
         },
         {
             position: "Rect Developer",
-            logo: "/asset/company-logo/big-telematics.png",
+            logo: "../asset/image/big-telematics.png",
             company: "Solera",
             description: "I was spending fun time on creating amazing interfaces with React and GraphQL. I also mentored their junior and mid level staff into web development."
-        },
+        }
     ]
 
 
@@ -48,15 +48,15 @@
     ul.header-experience__list
         each experience, key in experienceList
             li.header-experience__item
+                input.experience-input(type="checkbox" name="grouped-inputs" id=`experience-id-${key}`)
                 label.header-experience-label(for=`experience-id-${key}`)
                     .header-experience__logo
-                        img(src=experience.logo)
+                        img.experience-image(src=experience.logo )
                     .header-experience__wrapper
                         .header-experience__position=experience.position
                         .header-experience__company=experience.company
                     .header-action__arrow
                         .icon-arrow-up
-                input.experience-input(type="checkbox" name="grouped-inputs" id=`experience-id-${key}`)
                 .experience-description
                     p=experience.description
     

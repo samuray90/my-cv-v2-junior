@@ -35,11 +35,10 @@
   list-style: none;
 }
 
-.header-experience__logo {
+.experience-image {
+  border-radius: 50%;
   width: 40px;
   height: 40px;
-  border: 2px solid #707070;
-  border-radius: 50%;
 }
 
 .experience-input,
@@ -84,16 +83,23 @@
   color: #707070;
 }
 
-.experience-input:checked + .header-experience__wrapper {
-  .icon-arrow-up {
-    transform: rotateX(90deg);
-  }
+.icon-arrow-up:hover {
+  background-color: #50d166;
+  color: white;
+}
+
+.experience-input:checked
+  + .header-experience-label
+  .header-action__arrow
+  .icon-arrow-up:before {
+  transform: rotateX(180deg);
+  display: inline-block;
 }
 
 .experience-description:checked:last-child {
   border: none;
 }
 
-.experience-input:checked + .experience-description {
+.experience-input:checked + .header-experience-label + .experience-description {
   display: inherit;
 }
