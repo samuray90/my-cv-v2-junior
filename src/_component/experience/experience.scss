@@ -1,0 +1,87 @@
+.experience {
+  @extend %red-header;
+}
+
+.experience-title {
+  @extend %red-box;
+  font-weight: 500;
+}
+
+.experience-section {
+  @extend %align-items;
+  position: relative;
+}
+
+.experience-box {
+  width: 100%;
+  border: 2px solid #707070;
+  border-radius: 6px;
+}
+
+.experience-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 2px solid #707070;
+}
+
+.experience-image {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #707070;
+  border-radius: 50%;
+}
+
+.experience-input,
+.experience-text {
+  display: none;
+}
+
+.experience-input:checked + .experience-label + .experience-text {
+  display: inherit;
+}
+
+.experience-details {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.experience-job {
+  color: #707070;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.experience-company {
+  color: #707070;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.experience-text {
+  border-bottom: 2px solid #707070;
+  color: #707070;
+  padding: 10px;
+  text-align: initial;
+}
+
+.arrow-up__wrapper {
+  transform: rotate(180deg);
+  border: 2px solid #707070;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+  .my-cv-arrow-up {
+    color: #707070;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+  }
+}
+
+.experience-input:checked + .experience-label .arrow-up__wrapper .my-cv-arrow-up:before {
+  transform: rotate(180deg);
+  display: inline-block;
+}
