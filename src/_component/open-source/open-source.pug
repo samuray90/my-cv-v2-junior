@@ -41,24 +41,55 @@
     .github-project
         .project-1
             .show-part
-                .project-1 My CV v2
-                .technologies HTML, CSS, Git, JavaScript, SEO, Optimise, React, Redux, CSS, Git, JavaScript, SEO, Optimise, React
-                .icons
-                    .icon-info
-                    a(href="https://www.youtube.com/" class=`icon-youtube`)
-                    a(href="https://github.com/BogdanNegura/my-cv-v2-junior" class=`icon-github`)
+                .project-title My CV v2
+                .space(height="10")
+                p.technologies
+                    | HTML, CSS, Git, JavaScript, SEO, Optimise, React,
+                    br
+                    | Redux, CSS, Git, JavaScript, SEO, Optimise, React
+                
             .description-part
                 .coloured-dots
-                    span JavaScript 90%
-                    span TypeScript 5.1%
-                    span CSS 3.7%
-                    span HTML 1.2%
+                    .col-1
+                        .row
+                            .blue
+                            p JavaScript 90%
+                        .row
+                            .green
+                            p TypeScript 5.1%
+                    .col-2
+                        .row
+                            .red
+                            p CSS 3.7%
+                        .row
+                            .yellow
+                            p HTML 1.2%
                 .activity
                     .commits(class=`icon-commits`) Commits: 3,578
                     .star(class=`icon-stars`) Stars: 392
                     .commits(class=`icon-forks`) Forks: 77
                 .project-description
                     p I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.
+                .link-project__wrapper
+                    .icon-project
+                        .icon-project__github(class=`icon-github`)
+                        a.project-link(href="https://github.com/BogdanNegura/my-cv-2") bogdannegura/my-cv
+
+            .coloured-row
+                .blue-line
+                .green-line
+                .yellow-line
+                .red-line
+            .icons
+                .bottom-info__icon.icon-info
+                a.bottom-icon__youtube(href="https://www.youtube.com/" class=`icon-youtube`)
+                a.bottom-icon__github(href="https://github.com/BogdanNegura/my-cv-v2-junior" class=`icon-github`)
+
+    .space(height="30")
+    .arrow-down
+        span(class=`icon-arrow-down`)
+.space(height="30")
+.space(height="30")
 
             
 
