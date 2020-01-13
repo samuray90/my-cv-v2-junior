@@ -1,0 +1,40 @@
+.open-source {
+  @extend %red-header;
+}
+
+.open-source__title {
+  @extend %red-box;
+  font-weight: 500;
+}
+
+.open-source__section {
+  @extend %align-items;
+  position: relative;
+}
+
+.open-source__box {
+  border: 2px solid #707070;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.open-source__first-line,
+.open-source__second-line {
+  border-bottom: 2px solid #707070;
+}
+
+.open-source__first-line,
+.open-source__second-line,
+.open-source__third-line {
+  display: flex;
+  padding: 15px;
+}
+
+.stats-text {
+  display: inline-block;
+  text-align: initial;
+  color: #707070;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 20px;
+}
