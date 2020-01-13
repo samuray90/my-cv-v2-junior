@@ -1,0 +1,105 @@
+.experience {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 36px;
+}
+
+.header-experience__list {
+  width: 302px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 6px;
+  border: 2px solid #707070;
+  border-bottom: none;
+}
+
+.header-experience-label {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 10px;
+  border-bottom: 2px solid #707070;
+  cursor: pointer;
+}
+
+.header-action__arrow {
+  vertical-align: center;
+  line-height: 40px;
+}
+
+.header-experience__item {
+  list-style: none;
+}
+
+.experience-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.experience-input,
+.experience-description {
+  display: none;
+}
+
+.experience-description {
+  border-bottom: 2px solid #707070;
+  padding: 10px;
+  text-align: left;
+  color: #707070;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.header-experience__wrapper {
+  line-height: 20px;
+}
+
+.header-experience__position {
+  color: #707070;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.header-experience__company {
+  color: #707070;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.action-arrow {
+  padding-top: 5px;
+}
+
+.icon-arrow-up {
+  transform: rotate(180deg);
+  border: 2px solid #707070;
+  border-radius: 50%;
+  padding: 5px;
+  color: #707070;
+}
+
+.icon-arrow-up:hover {
+  background-color: #50d166;
+  color: white;
+}
+
+.experience-input:checked
+  + .header-experience-label
+  .header-action__arrow
+  .icon-arrow-up:before {
+  transform: rotateX(180deg);
+  display: inline-block;
+}
+
+.experience-description:checked:last-child {
+  border: none;
+}
+
+.experience-input:checked + .header-experience-label + .experience-description {
+  display: inherit;
+}

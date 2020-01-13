@@ -1,0 +1,28 @@
+{
+  "subtitleStats": "Stats",
+  "subtitleGithub": "GitHub projects",
+  "redIcons": {
+    "iconInfo": ".icon-info",
+    "iconYoutube": ".icon-youtube",
+    "iconGithub": ".icon-github"
+  },
+  "statList": [
+    {
+      "icon": "github",
+      "contributions": "3535",
+      "streak": "767"
+    },
+    {
+      "icon": "codewars",
+      "rank": "4 kyu",
+      "honor": "630"
+    },
+    {
+      "icon": "stackoverflow",
+      "top": "5%",
+      "reputation": "7367",
+      "people": "~3,000,000",
+      "answers": "102"
+    }
+  ]
+}
