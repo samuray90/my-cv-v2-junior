@@ -1,0 +1,57 @@
+-
+    var headerName = "Experience";
+    var imageAlt = "this is a logo";
+    var experienceList = [
+        {
+            image: "../asset/image/bitbee.png",
+            job: "Junior Front End Developer",
+            company: "BitBee Limited",
+            description: "Help and support members improving current aptitudes and gaining new skill sets. Developing web pages using technologies including HTML, CSS and JavaScript. Optimising websites for all multimedia platforms."
+        },
+        {
+            image: "../asset/image/rswind.png",
+            job: "Personal Assistant",
+            company: "R S WIND LIMITED",
+            description: "Help and support members improving current aptitudes and gaining new skill sets. Developing web pages using technologies including HTML, CSS and JavaScript. Optimising websites for all multimedia platforms."
+        },
+        {
+            image: "../asset/image/job.png",
+            job: "Team Leader",
+            company: "City Abseiling LTD",
+            description: "Help and support members improving current aptitudes and gaining new skill sets. Developing web pages using technologies including HTML, CSS and JavaScript. Optimising websites for all multimedia platforms."
+        },
+        {
+            image: "../asset/image/kineto.jpg",
+            job: "Phisiotherapist",
+            company: "Kineto Promedical Life",
+            description: "Help and support members improving current aptitudes and gaining new skill sets. Developing web pages using technologies including HTML, CSS and JavaScript. Optimising websites for all multimedia platforms."
+        }
+    ]
+
+
+#experience
+.experience
+    .experience-title=headerName
+.space
+.experience-section
+    button.youtube-button
+        a.link-access(href="htttp://www.youtube.com")
+            span.youtube-icon(class=`my-cv-youtube`)
+    .space
+
+    .experience-box
+        each experience, key in experienceList
+            input.experience-input(type="checkbox" name="experience-input" id=`experience-id-${key}`)
+            label.experience-label(for=`experience-id-${key}`)
+                img.experience-image(src=experience.image alt=imageAlt)
+                .experience-details
+                    .experience-job=experience.job
+                    .experience-company=experience.company
+                .arrow-up__wrapper
+                    span.my-cv-arrow-up
+            .experience-text=experience.description
+
+    .space
+    button.button__disc
+        span.my-cv-arrow-down
+    .space
