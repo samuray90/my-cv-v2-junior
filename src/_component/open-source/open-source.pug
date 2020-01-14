@@ -39,6 +39,7 @@
     .github-project__title=githubProjects
     .space(height="10")
     .github-project
+        input.project-input(type="radio" checked name="checkbox-input" id="default-project__input")
         .project-1
             .show-part
                 .project-title My CV v2
@@ -49,6 +50,8 @@
                     | Redux, CSS, Git, JavaScript, SEO, Optimise, React
                 
             .description-part
+                input.project-input(type="radio", name="checkbox-input" id="project-input")
+                
                 .coloured-dots
                     .col-1
                         .row
@@ -80,10 +83,13 @@
                 .green-line
                 .yellow-line
                 .red-line
-            .icons
-                .bottom-info__icon.icon-info
-                a.bottom-icon__youtube(href="https://www.youtube.com/" class=`icon-youtube`)
-                a.bottom-icon__github(href="https://github.com/BogdanNegura/my-cv-v2-junior" class=`icon-github`)
+                .icons
+                    label.project-description__label(for="project-input")
+                        .bottom-icon__info.icon-info
+                    label.project-description__close(for="default-project__input")
+                        .bottom-icon__cross.icon-cross
+                    a.bottom-icon__youtube(href="https://www.youtube.com/" class=`icon-youtube`)
+                    a.bottom-icon__github(href="https://github.com/BogdanNegura/my-cv-v2-junior" class=`icon-github`)
 
     .space(height="30")
     .arrow-down
