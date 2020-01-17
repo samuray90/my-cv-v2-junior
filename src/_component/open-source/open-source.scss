@@ -38,3 +38,159 @@
   font-weight: bold;
   padding-left: 20px;
 }
+
+.open-source__wrapper {
+  border: 2px solid #707070;
+  border-radius: 6px;
+}
+
+.input,
+.open-source__box-inside {
+  display: none;
+}
+
+.input:checked + .label + .social-icon + .open-source__box-inside {
+  display: inherit;
+}
+
+.my-cv-v2,
+.open-source__item,
+.open-source__data,
+.open-source__text {
+  border-bottom: 2px solid #707070;
+}
+
+.my-cv-v2 {
+  text-align: initial;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.cv-title {
+  font-size: 13px;
+  color: #808080;
+}
+
+.program-list {
+  color: #707070;
+  padding-top: 10px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  color: #707070;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+%dot {
+  content:' ';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.blue:before {
+  @extend %dot;
+  background: blue;
+}
+
+.red:before {
+  @extend %dot;
+  background: #D52027;
+}
+
+.green:before {
+  @extend %dot;
+  background: #F0E218;
+}
+
+.yellow:before {
+  @extend %dot;
+  background: #20D55D;
+}
+
+.commit-row,
+.star-row,
+.fork-row {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  color: #707070;
+}
+.commit,
+.star,
+.fork {
+  padding-left: 10px;
+}
+
+.open-source__text {
+  font-size: 14px;
+  padding: 20px;
+  color: #707070;
+  text-align: initial;
+}
+
+.pug-starter {
+  margin: 20px;
+  width: 220px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1875F0;
+}
+
+.white {
+  color: white;
+}
+
+.pug-starter__link {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+
+.social-icon {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: -40px;
+  right: 5px;
+}
+
+.info-button,
+.yt-button,
+.github-button {
+  background-color: #FF006D;
+  border: none;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: left;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.my-cv-youtube,
+.my-cv-info {
+  color: white;
+}
+
+
+
+
+
+
+
