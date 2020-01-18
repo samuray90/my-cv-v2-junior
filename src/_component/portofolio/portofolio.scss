@@ -6,6 +6,7 @@
   text-align: center;
   align-items: center;
   margin: 0 36px;
+  position: relative;
 }
 
 .port {
@@ -14,6 +15,7 @@
   justify-content: center;
   border: 2px solid #707070;
   border-radius: 6px;
+  position: relative;
 }
 
 .port-top {
@@ -37,9 +39,6 @@
   text-align: left;
 }
 
-.port-bottom {
-}
-
 .img-port {
   height: 100px;
   width: 302px;
@@ -48,6 +47,11 @@
 .port-icon__wrapper {
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  margin-right: 10px;
+  // z-index: -1;
 }
 
 .port-icon {
@@ -65,4 +69,19 @@
 .port-bottom__github {
   color: white;
   text-decoration: none;
+}
+
+.port-img__wrapper {
+  position: relative;
+  z-index: 1;
+  background-image: cover;
+}
+
+.img-port {
+  height: 100%;
+}
+
+.port-old {
+  border: 2px solid #707070;
+  border-radius: 6px;
 }
