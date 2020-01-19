@@ -1,0 +1,51 @@
+-
+    var reviewList = [
+        {
+            avatar: "asset/image/avatar/avatar.jpg",
+            name: "Mustafa Salfety",
+            date: "15 October 2018 ",
+            message: "Great content , these things you will learn will change your life for better"
+        },
+        {
+            avatar: "asset/image/avatar/avatar.jpg",
+            name: "Fardin Ahmad Ruhin",
+            date: "October 10 at 4:49 AM",
+            message: "Very Good It"
+        },
+        {
+            avatar: "asset/image/avatar/avatar.jpg",
+            name: "Iulian Iulian",
+            date: "September 28 at 6:44 PM",
+            message: "Join our group and become a professional Front Web Developer in less than 5 months !"
+        }
+    ]
+
+.red-box
+    .section-title Reviews
+.reviews
+    .space(height="30")
+    .button-wrapper
+        button.youtube-button
+            a.youtube-link(href="https://www.youtube.com/watch?v=7lgg_MSblRE")      
+                span.youtube-icon(class=`icon-youtube`)
+    .space(height="30")
+    .reviews-list
+        each review in reviewList
+            .review-wrapper
+                .review-header
+                    .review-image__wraper
+                        img(src=review.avatar, alt="something went wrong")
+                    .reviewer-name=review.name
+                    .review-date=review.date
+                .review-message=review.message
+
+    .space(height="30")
+    .space(height="30")
+    .arrow-down
+        span(class=`icon-arrow-down`)
+    .space(height="30")
+    .space(height="30")
+
+
+
+
