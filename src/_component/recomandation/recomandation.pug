@@ -9,7 +9,7 @@
         {
             icon: "icon-user",
             name: "Alan Wright",
-            job__title: "Senior Project Manager at Newton Investment Management",
+            job__title: "Senior Project Manager",
             feedback: "Marian has done a fantastic job on UI development while working for me on a Digital Transformation Programme of work at Direct Line. His work rate is high and output is of equally high quality. He has proved to be a great enabler in assisting me to deliver the Programme of work that I have been overseeing. "
         }
         
@@ -26,13 +26,17 @@
     .space(height="30")
     .recomandation-list
         each recomandation in recomandationList
-            .recomandation-header
-                .user-icon(class=recomandation.icon)
-                .recomandation-text
-                    .recomandation-name=recomandation.name
-                    .recomandation-job_title=recomandation.job__title
-            .recomandation-box__message
-                .recomandation-message=recomandation.feedback
+            .recomandation-wrapper
+                .recomandation-header
+                    .user-icon__wrapper
+                        .user-icon(class=recomandation.icon)
+                    .recomandation-text
+                        .recomandation-name=recomandation.name
+                        .recomandation-job_title=recomandation.job__title
+                .space(height="30")
+                .recomandation-box__message
+                    .recomandation-message=recomandation.feedback
+                .space(height="30")
 
             
 
