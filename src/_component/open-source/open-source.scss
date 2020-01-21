@@ -1,0 +1,247 @@
+.open-source {
+  @extend %red-header;
+}
+
+.open-source__title {
+  @extend %red-box;
+  font-weight: 500;
+}
+
+.open-source__section,
+.button-center {
+  @extend %align-items;
+  position: relative;
+}
+
+.open-source__box {
+  border: 2px solid $color-dove-gray;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.open-source__first-line,
+.open-source__second-line {
+  border-bottom: 2px solid $color-dove-gray;
+}
+
+.open-source__first-line,
+.open-source__second-line,
+.open-source__third-line {
+  display: flex;
+  padding: 15px;
+}
+
+.stats-text {
+  display: inline-block;
+  text-align: initial;
+  color: $color-dove-gray;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.project-title {
+  color: $color-dove-gray;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.github-project {
+  border: 2px solid $color-dove-gray;
+  border-radius: 6px;
+}
+
+.my-cv__input:checked + .my-cv__content {
+  display: inherit;
+}
+
+.my-cv__input,
+.my-cv__content {
+  display: none;
+}
+
+#my-cv-id:checked
+  + .my-cv__project
+  .social-icon
+  .my-cv__label-close {
+  display: none; 
+  }
+
+#my-project-id:checked + .my-cv__content + .my-cv__label {
+  display: none;
+}
+
+.my-cv-v2,
+.my-cv__item,
+.my-cv__data,
+.my-cv__text {
+  border-bottom: 2px solid $color-dove-gray;
+}
+
+.my-cv-v2 {
+  text-align: initial;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.my-cv__title {
+  font-size: 13px;
+  color: $color-gray;
+}
+
+.my-cv__program-list {
+  color: $color-dove-gray;
+  padding-top: 10px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  color: $color-dove-gray;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+%dot {
+  content:' ';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.blue:before {
+  @extend %dot;
+  background: $color-azure-radiance;
+}
+
+.red:before {
+  @extend %dot;
+  background: $color-alizarin-crimson;
+}
+
+.green:before {
+  @extend %dot;
+  background: $color-ripe-lemon;
+}
+
+.yellow:before {
+  @extend %dot;
+  background: $color-mountain-meadow;
+}
+
+.commit-row,
+.star-row,
+.fork-row {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  color: $color-dove-gray;
+}
+
+.commit,
+.star,
+.fork {
+  padding-left: 10px;
+}
+
+.my-cv__text {
+  font-size: 14px;
+  padding: 20px;
+  color: $color-dove-gray;
+  text-align: initial;
+}
+
+.pug-starter {
+  margin: 20px;
+  width: 220px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: $color-azure-radiance;
+}
+
+.pug-starter__link {
+  color: $color-white;
+  text-decoration: none;
+  padding: 0 0 10px 10px;
+}
+
+.social-icon {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10px;
+  bottom: -40px;
+}
+
+.info-button,
+.cross-button,
+.yt-button,
+.github-button {
+  background-color: $color-rose;
+  border: none;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: left;
+  margin-left: 1px; 
+}
+
+.info-button {
+  position: absolute;
+  right: 92px;
+  bottom: -40px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.my-cv-yt,
+.my-cv-info,
+.my-cv-github,
+.my-cv-cross {
+  color: $color-white;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  display: flex;
+  width: 100%;
+}
+
+.blue-part {
+  border: 5px solid $color-azure-radiance;
+  width: 90%;
+  border-bottom-left-radius: 4px;
+}
+
+.yellow-part {
+  border: 5px solid $color-ripe-lemon;
+  width: 1.2%;
+}
+
+.red-part {
+  border: 5px solid $color-alizarin-crimson;
+  width: 3.7%;
+}
+
+.green-part {
+  border: 5px solid $color-mountain-meadow;
+  width: 5.1%;
+  border-bottom-right-radius: 4px;
+}
+
