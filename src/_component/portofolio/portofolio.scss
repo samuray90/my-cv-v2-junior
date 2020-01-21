@@ -1,0 +1,94 @@
+.portofolio {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 36px;
+  position: relative;
+}
+
+.port {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #707070;
+  border-radius: 6px;
+  position: relative;
+}
+
+.port-top {
+  height: 100px;
+  width: 302px;
+  background-color: white;
+  border-bottom: 2px solid #707070;
+}
+
+.port-title {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+.port-description,
+.port-link {
+  font-size: 12px;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.img-port {
+  height: 100px;
+  width: 302px;
+}
+
+.port-icon__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  margin-right: 10px;
+  // z-index: -1;
+}
+
+.port-icon {
+  width: 40px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #ff006d;
+  vertical-align: bottom;
+  line-height: 120px;
+  //   color: white;
+  font-size: 15px;
+  margin-left: 1px;
+}
+
+.port-bottom__github {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.port-bottom__earth {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.port-img__wrapper {
+  position: relative;
+  z-index: 1;
+  background-image: cover;
+}
+
+.img-port {
+  height: 100%;
+}
+
+.port-old {
+  border: 2px solid #707070;
+  border-radius: 6px;
+}

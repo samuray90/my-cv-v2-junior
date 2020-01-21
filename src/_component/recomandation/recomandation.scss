@@ -1,0 +1,69 @@
+.recomandation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 36px;
+}
+
+.recomandation-wrapper {
+  width: 302px;
+}
+
+.recomandation-header {
+  display: flex;
+  justify-content: left;
+}
+
+.user-icon__wrapper {
+  height: 65px;
+  width: 65px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px #707070, 0 0 5px #e6e0e0;
+}
+
+.user-icon {
+  height: 55px;
+  width: 55px;
+  background-color: #1875f0;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  line-height: 55px;
+}
+
+.recomandation-text {
+  margin-left: 14px;
+  height: 60px;
+  margin-top: 10px;
+}
+.recomandation-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #707070;
+  text-align: left;
+}
+
+.recomandation-job_title {
+  font-size: 14px;
+  color: #707070;
+  font-weight: bold;
+  text-align: left;
+}
+
+.recomandation-box__message {
+  // border: 2px solid #707070;
+  box-shadow: 0 0 5px #707070, 0 0 5px #e6e0e0;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: left;
+  line-height: 2;
+  font-size: 14px;
+  background-color: #fff;
+  color: #707070;
+}
