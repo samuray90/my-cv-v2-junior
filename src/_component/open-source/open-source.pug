@@ -17,45 +17,83 @@
         .open-source__first-line
             span.my-cv-github
             .stats-text
-                p
-                | Contributions last year: 3,535
-                p
-                | Longest streak: 767
+                p Contributions last year: 3,535
+                p Longest streak: 767
         .open-source__second-line
             span.my-cv-codewars
             .stats-text
-                p
-                | Rank: 4 kyu
-                p
-                | Honor: 630
+                p Rank: 4 kyu
+                p Honor: 630
         .open-source__third-line
             span.my-cv-stackoverflow
             .stats-text
-                p
-                | Top: 5%
-                p
-                | Reputation: 7,367
-                p
-                | People reached: ~3,000,000
-                p
-                | Answers: 102
+                p Top: 5%
+                p Reputation: 7,367
+                p People reached: ~3,000,000
+                p Answers: 102
     .space
 
+    .project-title=projectTitle
+    .github-project
+        input.my-cv__input(type="radio" name="my-cv-input" id="my-cv-id")
+        .my-cv__project
+            .social-icon
+                label.my-cv__label-close(for="my-cv-id")
+                    .cross-button
+                        span.my-cv-cross
+                .yt-button
+                    a.link(href="https://www.youtube.com")
+                        span.my-cv-yt.my-cv-youtube
+                .github-button
+                    a.link(href="https://www.github.com")
+                        span.my-cv-github
+            .my-cv-v2
+                .my-cv__title=myCvTitle
+                .my-cv__program-list
+                    p HTML, CSS, Git, JavaScript, SEO, Optimise, React
+                    p Redux, CSS, Git, JavaScript, SEO, Optimise, React
+            .my-cv__box-inside
+                input.my-cv__input(type="radio" name="my-cv-input" id="my-project-id")
+                .my-cv__content
+                    .my-cv__item
+                        .first-row
+                            .blue JavaScript 90%
+                            .red CSS 3.7%
+                        .second-row
+                            .green TypeScript 5.1%
+                            .yellow HTML 1.2%
+                    .my-cv__data
+                        .commit-row
+                            span.my-cv-commits
+                            .commit Commits: 3,578
+                        .star-row
+                            span.my-cv-stars
+                            .star Stars: 385
+                        .fork-row
+                            span.my-cv-forks
+                            .fork Forks: 77
+                    .my-cv__text
+                        p I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. I make the Front-End world a better place every day. I translate geek into English
+                    button.pug-starter
+                        span.my-cv-github
+                            a.pug-starter__link(href="https://www/github.com") biancalina/pug-starter
+                label.my-cv__label(for="my-project-id")
+                    .info-button
+                        span.my-cv-info
+            .border
+                .blue-part
+                .red-part
+                .yellow-part
+                .green-part
 
-    .box
-      input.cv-input(type="checkbox" name="cv-input" id="cv-id-")
-      label.cv-label(for="cv-id-")
-        .my-cv-v2
-            .cv-title=myCvTitle
-            .program-list
-                p HTML, CSS, Git, JavaScript, SEO, Optimise, React
-                p Redux, CSS, Git, JavaScript, SEO, Optimise, React
-        .social-icon
-            span.my-cv-info
-            span.my-cv-youtube
-            span.my-cv-github
-      ul.cv-list
-        li JavaScript 90%
-        li CSS 3.7%
-        li TypeScript 5.1%
-        li HTML 1.2%
+.space
+.space
+.button-center
+    button.button__disc
+        span.my-cv-arrow-down
+.space
+
+
+
+
+
