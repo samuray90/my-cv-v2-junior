@@ -1,0 +1,97 @@
+.portofolio {
+  @extend %red-header;
+}
+
+.portofolio__title {
+  @extend %red-box;
+  font-weight: 500;
+}
+
+.portofolio__section {
+  @extend %align-items;
+  position: relative;
+}
+
+.portofolio-first__title,
+.portofolio-second__title {
+  color: #707070;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.codetap-box,
+.pug-box {
+  border: 2px solid #707070;
+  border-radius: 6px;
+}
+
+.codetap-content,
+.pug-content {
+  display: inline-block;
+  text-align: initial;
+  padding: 15px;
+}
+
+.codetap-title,
+.pug-title {
+  color: #808080;
+  font-weight: bold;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.codetap-program,
+.pug-program,
+.codetap-link {
+  color: #707070;
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.codetap-image,
+.pug-image {
+  border-top: 2px solid #707070;
+}
+
+.codetap-avatar,
+.pug-avatar {
+  height: 100px;
+  width: 100%;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.codetap-button {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10px;
+}
+
+.earth-button,
+.gh-button {
+  background-color: $color-rose;
+  border: none;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 1px; 
+}
+
+.my-cv-earth,
+.codetap-gh {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+.first-link,
+.second-link {
+  text-decoration: none;
+}
