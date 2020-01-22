@@ -1,0 +1,87 @@
+.recommendation {
+  @extend %red-header;
+}
+
+.recommendation__title {
+  @extend %red-box;
+  font-weight: 500;
+}
+
+.recommendation__section {
+  @extend %align-items;
+  position: relative;
+}
+
+.recommendation-wrapper {
+  display: flex;
+  justify-content: left;
+}
+
+.recommendation-user {
+  height: 64px;
+  width: 64px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 8px $color-black;
+}
+
+.my-cv-user {
+  height: 54px;
+  width: 54px;
+  background-color: #1875f0;
+  border-radius: 50%;
+  font-size: 32px;
+  color: white;
+  line-height: 55px;
+}
+
+.recommendation-detail {
+  display: inline-block;
+  text-align: initial;
+  padding-left: 20px;
+  padding-top: 15px;
+  color: #707070;
+}
+
+.recommendation-name {
+  color: #808080;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.recommendation-job {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.recommendation-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: $color-white;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px $color-black;
+  position: relative;
+}
+
+.recommendation-text {
+  padding: 20px;
+  font-size: 14px;
+  color: #707070;
+  line-height: 30px;
+}
+
+.recommendation-box:before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #f1ecec;
+  border-top: 0;
+  bottom: 100%;
+}
