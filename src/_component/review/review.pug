@@ -1,0 +1,48 @@
+-
+    var reviewTitle = "Reviews";
+    var reviewList = [
+        {
+            image: "asset/image/simona.jpg",
+            name: "Mustafa Salfety",
+            date: "15 October 2018 ",
+            text: "Great content , these things you will learn will change your life for better"
+        },
+        {
+            image: "asset/image/poza.jpg",
+            name: "Fardin Ahmad",
+            date: "October 10 at 4:49 AM",
+            text: "Very Good It"
+        },
+        {
+            image: "asset/image/poza1.jpg",
+            name: "Iulian ",
+            date: "September 28 at 6:44 PM",
+            text: "Join our group and become a professional Front Web Developer in less than 5 months!"
+        }
+    ]
+
+#review
+.review
+    h1.review__title=reviewTitle
+.review__section
+    .space
+    button.youtube-button
+        a.link-access(href="https://www.youtube.com")
+            span.youtube-icon(class="my-cv-youtube")
+    .space
+
+    .review-wrapper
+    each review in reviewList
+        img.review-avatar(src=review.image, alt="this is a photo")
+        .review-detail
+                .review-name=review.name
+                .review-date=review.date
+        .space
+        .review-box
+            .review-text=review.text
+        .space
+
+    .space
+    button.button__disc
+        span.my-cv-arrow-down
+    .space
