@@ -22,11 +22,11 @@
   display: inline-block;
   text-align: initial;
   padding-left: 20px;
-  color: #707070;
+  color: $color-dove-gray;
 }
 
 .review-name {
-  color: #808080;
+  color: $color-gray;
   font-weight: bold;
   font-size: 22px;
 }
@@ -39,7 +39,7 @@
 .review-text {
   padding: 20px;
   font-size: 14px;
-  color: #707070;
+  color: $color-dove-gray;
   line-height: 30px;
 }
 
@@ -60,7 +60,7 @@
   width: 0;
   height: 0;
   border: 10px solid transparent;
-  border-bottom-color: #f1ecec;
+  border-bottom-color: $color-ebb;
   border-top: 0;
   bottom: 100%;
 }
