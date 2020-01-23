@@ -1,20 +1,20 @@
-.portofolio {
+.portfolio {
   @extend %red-header;
 }
 
-.portofolio__title {
+.portfolio__title {
   @extend %red-box;
   font-weight: 500;
 }
 
-.portofolio__section {
+.portfolio__section {
   @extend %align-items;
   position: relative;
 }
 
-.portofolio-first__title,
-.portofolio-second__title {
-  color: $color-dove-gray;
+.portfolio-first__title,
+.portfolio-second__title {
+  color: #707070;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -23,7 +23,7 @@
 
 .codetap-box,
 .pug-box {
-  border: 2px solid $color-dove-gray;
+  border: 2px solid #707070;
   border-radius: 6px;
 }
 
@@ -36,7 +36,7 @@
 
 .codetap-title,
 .pug-title {
-  color: $color-gray;
+  color: #808080;
   font-weight: bold;
   font-size: 13px;
   padding-bottom: 10px;
@@ -45,7 +45,7 @@
 .codetap-program,
 .pug-program,
 .codetap-link {
-  color: $color-dove-gray;
+  color: #707070;
   font-size: 12px;
   font-style: italic;
   text-decoration: none;
@@ -53,7 +53,7 @@
 
 .codetap-image,
 .pug-image {
-  border-top: 2px solid $color-dove-gray;
+  border-top: 2px solid #707070;
 }
 
 .codetap-avatar,
@@ -85,7 +85,7 @@
 
 .my-cv-earth,
 .codetap-gh {
-  color: $color-white;
+  color: white;
   display: flex;
   justify-content: center;
   padding-top: 3px;
