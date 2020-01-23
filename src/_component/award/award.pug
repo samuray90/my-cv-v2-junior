@@ -1,0 +1,54 @@
+-
+    var awardTitle = "I am proud";
+    var secondTitle = "Awards and Achievements";
+    var awardList = [
+        {
+            date: "2017 - 2019",
+            text: "I've mentored and helped land a job or get promoted over 30 people as web developers across all levels: junior, mid and senior.",
+            location: "London"
+        },
+        {
+            date: "2017 - 2019",
+            text: "I've raised close to 100,000 subscribers and more than 5 million views across the social networks CodeTap is present on helping young developers jumpstart their career all over the world.",
+            location: "Googleplex Meeting – London"
+        },
+        {
+            date: "2014",
+            text: "Best 30S Elevator Speed Pitch",
+            location: "Googleplex Meeting – London"
+        },
+        {
+            date: "2006 - 2011",
+            text: "BEST WHITEHAT CMS Placed ",
+            location: "London"
+        },
+        {
+            date: "2001",
+            text: "BEST WEBSITE FOR PRESIDENT ELECTIONS ",
+            location: "Constanta/Romania"
+        }
+    ]
+
+#award
+.award
+    .award-title=awardTitle
+.space
+.award-section
+    button.youtube-button
+        a.link-access(href="htttp://www.youtube.com")
+            span.youtube-icon(class="my-cv-youtube")
+    .space
+
+    .award-second__title=secondTitle
+    .award-box
+        each award in awardList
+            .award-date=award.date
+            .award-wrapper
+                .award-text=award.text
+                .award-location=award.location
+
+    .space
+    button.button__disc
+        span.my-cv-arrow-down
+    .space
+
