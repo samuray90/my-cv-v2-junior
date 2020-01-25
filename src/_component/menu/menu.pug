@@ -1,0 +1,61 @@
+-
+    var menuList = [
+        {
+            title: "About me",
+            link: "#welcome"
+        },
+        {
+            title: "Let's connect",
+            link: "#connect"
+        },
+        {
+            title: "Skills",
+            link: "#skills"
+        },
+        {
+            title: "Experience",
+            link: "#experience"
+        },
+        {
+            title: "Open Source",
+            link: "#stat"
+        },
+        {
+            title: "Portofolio",
+            link: "#portofolio"
+        },
+        {
+            title: "Recomandation",
+            link: "#recomandation"
+        },
+        {
+            title: "Review",
+            link: "#reviews"
+        },
+        {
+            title: "I'm proud",
+            link: "#im-proud"
+        }
+        
+    ]
+
+#menu
+.menu
+    label.label-menu__body(for="menu-radio")
+        span.icon-menu
+    input(type="radio", checked, name="menu-radio", id="default-message-radio")
+    
+    input.input-menu__body(type="radio", name="menu-radio", id="menu-radio")
+    .menu-body
+        each menu in menuList
+            .menu-body__wrapper
+                a.menu-link(href=menu.link)
+                    span.menu-label=menu.title
+        label.default-reset(for="default-message-radio")
+            .menu-bottom__close
+                span.icon-cross 
+                .menu-close__text Close Menu
+
+
+
+
