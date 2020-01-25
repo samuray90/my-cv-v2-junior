@@ -1,0 +1,55 @@
+.award {
+  @extend %red-header;
+}
+
+.award-title {
+  @extend %red-box;
+  font-weight: 500;
+}
+
+.award-section {
+  @extend %align-items;
+  position: relative;
+}
+
+.award-second__title,
+.award-wrapper,
+.award-date {
+  color: $color-dove-gray;
+}
+
+.award-second__title {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.award-box {
+  border: 2px solid $color-dove-gray;
+}
+
+.award-wrapper {
+  border-bottom: 2px solid $color-dove-gray;
+  padding: 5px 20px 20px 20px;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: initial;
+  font-style: italic;
+}
+
+.award-wrapper:last-child {
+  border: none;
+}
+
+.award-date {
+  display: block;
+  text-align: right;
+  padding: 5px 20px 0 0;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+
