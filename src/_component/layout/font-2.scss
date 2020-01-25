@@ -1,8 +1,8 @@
 @font-face {
   font-family: "icon";
-  src: url("asset/font/icon-v1.0/icon.ttf?wznzm1") format("truetype"),
-    url("asset/font/icon-v1.0/icon.woff?wznzm1") format("woff"),
-    url("asset/font/icon-v1.0/icon.svg?wznzm1#icon") format("svg");
+  src: url("asset/font/icon-v2.0/icon.ttf?tsqpgs") format("truetype"),
+    url("asset/font/icon-v2.0/icon.woff?tsqpgs") format("woff"),
+    url("asset/font/icon-v2.0/icon.svg?tsqpgs#icon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-user:before {
+  content: "\e971";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
 .icon-arrow-down:before {
   content: "\e900";
 }

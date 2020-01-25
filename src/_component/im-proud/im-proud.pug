@@ -1,0 +1,52 @@
+-
+    var proudTitle = "Awards and Achievements"
+    var proudList = [
+        {
+            date: "2017 - 2019",
+            description: "I've mentored and helped land a job or get promoted over 30 people as web developers across all levels: junior, mid and senior."
+        },
+        {
+            date: "2017 - 2019",
+            description: "I've raised close to 100,000 subscribers and more than 5 million views across the social networks CodeTap is present on helping young developers jumpstart their career all over the world."
+        },
+        {
+            date: "2014",
+            description: "Best 30S Elevator Speed Pitch Googleplex Meeting – London"
+        },
+        {
+            date: "2001",
+            description: "BEST WEBSITE FOR PRESIDENT ELECTIONS Constanta / Romania"
+        },
+        {
+            date: "2006 - 2011",
+            description: "BEST WHITEHAT CMS Placed 50+ websites in First 3 Google results"
+        },
+    ]
+
+.red-box
+    .section-title Reviews
+.im-proud
+    .space(height="30")
+    .button-wrapper
+        button.youtube-button
+            a.youtube-link(href="https://www.youtube.com/watch?v=7lgg_MSblRE")      
+                span.youtube-icon(class=`icon-youtube`)
+    .space(height="30")
+    .section-subtitle=proudTitle
+    .space(height="30")
+    .proud-list
+        each proud in proudList
+            .proud-content
+                .proud-date=proud.date
+                .space(height="10")
+                .proud-description=proud.description
+    .space(height="30")
+    .space(height="30")
+    .arrow-down
+        span(class=`icon-arrow-down`)
+    .space(height="30")
+    .space(height="30")
+
+
+
+
