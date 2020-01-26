@@ -23,12 +23,41 @@
         },
     ]
 
+script.
+    //- alert(3)
+    //- Get modal Element
+    var modal = document.getElementById("my-modal");
+    //- Get open modal button
+    var modalButton = document.getElementById("modal-button");
+    //- Get Close button
+    var closeButton = document.getElementsByClassName("modal-header");
+
+    //- Events
+    modalButton.addEventListener("click", openModal);
+    closeButon.addEventListener("click", closeModal);
+    window.addEventListener("click", clickOutside);
+
+    function openModal() {
+        //- modal.style.display = "block";
+        console.log(123);
+    }
+
+    function closeModal() {
+        modal.style.display = 'none';
+    }
+
+    function clickOutside(e) {
+        if (e.target == modal) {
+            modal.style.display = "none"
+        }
+    }
+
 .red-box
     .section-title I'm proud
 #im-proud
 .im-proud
     .space(height="30")
-    button#modal-button.button.youtube-button
+    button#modal-button.youtube-button
         span.youtube-icon(class=`icon-youtube`)
         //- span.icon-youtube
     #my-modal.modal
@@ -37,11 +66,6 @@
                 .icon-cross
             .modal-body
                 <iframe width="560" height="270" src="https://www.youtube.com/embed/VwjeJOn_PEQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    //- .button-wrapper
-    //-     button.youtube-button
-    //-         a.youtube-link(href="https://www.youtube.com/watch?v=7lgg_MSblRE")      
-    //-             span.youtube-icon(class=`icon-youtube`)
     .space(height="30")
     .section-subtitle=proudTitle
     .space(height="30")
@@ -57,6 +81,4 @@
         span(class=`icon-arrow-down`)
     .space(height="30")
     .space(height="30")
-
-
 

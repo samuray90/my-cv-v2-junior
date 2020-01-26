@@ -1,5 +1,8 @@
+// #my-modal {
+//   display: block;
+// }
 .modal {
-  // display: none;
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -11,7 +14,7 @@
 }
 
 .modal-content {
-  margin: 50% auto;
+  margin: 30% auto;
 }
 
 .modal-header {

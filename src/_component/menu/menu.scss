@@ -6,7 +6,6 @@
   width: 200px;
   text-align: right;
   background-color: #fff;
-  // padding: 10px;
 }
 
 .menu {
@@ -40,11 +39,17 @@
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
+  padding: 0 18px;
+}
+
+.menu-body__wrapper {
+  padding: 8px;
 }
 
 .menu-bottom__close:hover {
   background-color: #ff006d;
   color: white;
+  padding: 0 5px;
 }
 
 .icon-menu {
@@ -56,29 +61,19 @@
 
 .icon-cross {
   // color: black;
+  // padding: 10px;
 }
 
-.menu-list {
-  display: none;
-}
 .menu-body {
   display: none;
   margin-top: 10px;
 }
 
 .input-menu__body:checked + .menu-body {
-  // border: 3px solid red;
   display: inherit;
-
-  .icon-menu {
-    display: none;
-  }
 }
 
-// .input-menu__body {
-//   display: none;
-// }
-
-// .menu-link {
-//   display: none;
-// }
+#default-menu-message-radio,
+#menu-radio {
+  display: none;
+}
