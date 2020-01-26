@@ -1,3 +1,38 @@
+.modal {
+  // display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  // overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  margin: 50% auto;
+}
+
+.modal-header {
+  background: #1875f0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+.modal-header:hover {
+  background: red;
+}
+
+.icon-cross {
+  line-height: 40px;
+  color: white;
+  font-size: 30px;
+}
+
 .im-proud {
   display: flex;
   justify-content: center;
@@ -5,6 +40,7 @@
   text-align: center;
   align-items: center;
   margin: 0 36px;
+  height: 100vh;
 }
 
 .proud-list {
