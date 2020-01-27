@@ -40,17 +40,18 @@
   font-size: 20px;
   cursor: pointer;
   padding: 0 18px;
+  line-height: 40px;
+  vertical-align: center;
 }
 
 .menu-body__wrapper {
   padding: 8px;
 }
 
-.menu-bottom__close:hover {
-  background-color: #ff006d;
-  color: white;
-  padding: 0 5px;
-}
+// .menu-bottom__close:hover {
+//   background-color: #ff006d;
+//   color: white;
+// }
 
 .icon-menu {
   border: 2px solid #707070;
@@ -59,9 +60,13 @@
   cursor: pointer;
 }
 
-.icon-cross {
-  // color: black;
-  // padding: 10px;
+.menu-bottom__close > span {
+  color: #ff006d;
+}
+
+.menu-bottom__close > span:hover {
+  color: green;
+  font-size: 32px;
 }
 
 .menu-body {

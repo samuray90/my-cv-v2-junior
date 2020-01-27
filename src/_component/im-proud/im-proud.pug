@@ -23,49 +23,13 @@
         },
     ]
 
-script.
-    //- alert(3)
-    //- Get modal Element
-    var modal = document.getElementById("my-modal");
-    //- Get open modal button
-    var modalButton = document.getElementById("modal-button");
-    //- Get Close button
-    var closeButton = document.getElementsByClassName("modal-header");
-
-    //- Events
-    modalButton.addEventListener("click", openModal);
-    closeButon.addEventListener("click", closeModal);
-    window.addEventListener("click", clickOutside);
-
-    function openModal() {
-        //- modal.style.display = "block";
-        console.log(123);
-    }
-
-    function closeModal() {
-        modal.style.display = 'none';
-    }
-
-    function clickOutside(e) {
-        if (e.target == modal) {
-            modal.style.display = "none"
-        }
-    }
 
 .red-box
     .section-title I'm proud
 #im-proud
 .im-proud
     .space(height="30")
-    button#modal-button.youtube-button
-        span.youtube-icon(class=`icon-youtube`)
-        //- span.icon-youtube
-    #my-modal.modal
-        .modal-content
-            .modal-header
-                .icon-cross
-            .modal-body
-                <iframe width="560" height="270" src="https://www.youtube.com/embed/VwjeJOn_PEQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    include ../modal/modal
     .space(height="30")
     .section-subtitle=proudTitle
     .space(height="30")
@@ -82,3 +46,30 @@ script.
     .space(height="30")
     .space(height="30")
 
+script.
+    //- alert(3)
+    //- Get modal Element
+    var modal = document.getElementById("my-modal");
+    //- Get open modal button
+    var modalButton = document.getElementById("modal-button");
+    //- Get Close button
+    var closeButton = document.getElementsByClassName("close-modal__icon")[0];
+
+    //- Events
+    modalButton.addEventListener("click", openModal);
+    closeButton.addEventListener("click", closeModal);
+    window.addEventListener("click", clickOutside);
+
+    function openModal() {
+        modal.style.display = "block";
+    }
+    
+    function closeModal() {
+        modal.style.display = "none";
+    }
+
+    function clickOutside(e) {
+        if (e.target == modal) {
+            modal.style.display = "none"
+        }
+    }

@@ -38,10 +38,11 @@
 #experience
 .experience
     .space(height="30")
-    .button-wrapper
-        button.youtube-button
-            a.youtube-link(href="https://www.youtube.com/watch?v=7lgg_MSblRE")      
-                span.youtube-icon(class=`icon-youtube`)
+    include ../modal/modal
+    //- .button-wrapper
+    //-     button.youtube-button
+    //-         a.youtube-link(href="https://www.youtube.com/watch?v=7lgg_MSblRE")      
+    //-             span.youtube-icon(class=`icon-youtube`)
     .space(height="30")
 
     input.experience-input(type="checkbox" name="grouped-inputs" checked id="experience-default")
