@@ -1,0 +1,51 @@
+-
+    var menuList =[
+        {
+            label: 'About me',
+            link: '#welcome',
+        },
+        {
+            label: 'Let\'s connect',
+            link: '#connect',
+        },
+        {
+            label: 'Experience',
+            link: '#experience',
+        },
+        {
+            label: 'Open-source',
+            link: '#open-source',
+        },
+        {
+            label: 'Portfolio',
+            link: '#portfolio',
+        },
+        {
+            label: 'Recommendation',
+            link: '#recommendation',
+        },
+        {
+            label: 'Review',
+            link: '#review',
+        },
+        {
+            label: 'Portfolio',
+            link: '#portfolio',
+        },
+    ]
+
+.menu
+
+    input.input-wrapper(type="radio", name="menu-input", id="menu-id")
+    label.menu__go-to(for="menu-id")
+        span.my-cv-menu
+    .menu__list
+        each menu in menuList
+            .menu-content
+                a.menu__link(href=menu.link)
+                    span.menu__label=menu.label
+        input.menu-input(type="radio" name="menu-input", id="menu-message-radio")
+        label.menu-close(for="menu-message-radio")
+            .close-wrapper
+                span.close.my-cv-cross
+                .menu-close__text Close Menu
