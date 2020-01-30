@@ -34,11 +34,9 @@
     .experience-title=headerName
 .space
 .experience-section
-    button.youtube-button
-        a.link-access(href="htttp://www.youtube.com")
-            span.youtube-icon(class=`my-cv-youtube`)
-    .space
+    include ../youtube-modal/youtube-modal
 
+    .space
     .experience-box
         each experience, key in experienceList
             input.experience-input(type="checkbox" name="experience-input" id=`experience-id-${key}`)
