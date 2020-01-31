@@ -6,28 +6,28 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: hsla(0, 0%, 0%, 0.502);
 }
 
 .youtube-modal__box {
-  margin: 25% auto;
+  margin: 50% auto;
 
 }
 
 .youtube-circle {
-  background: #1875f0;
+  background: $color-azure-radiance;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   position: absolute;
   top: 30px;
   right: 30px;
-  color: white;
+  color: $color-white;
   cursor: pointer;
   display: flex;
   justify-content: center;
 }
 
 .my-cv-youtube {
-  color:white;
+  color:$color-white;
 }
