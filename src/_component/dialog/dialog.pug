@@ -1,0 +1,41 @@
+.dialog
+    .dialog-content
+        .dialog-header
+            span.close-dialog__icon.icon-cross
+        .dialog-body
+            <iframe id="video" width="560" height="270" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+script.
+    //- alert(3)
+    //- Get modal Element
+    var dialog = document.querySelector(".dialog");
+    var video = document.querySelector("#video")
+    //- Get open modal button
+    document.querySelectorAll(".youtube-button").forEach(element => {
+        console.log(element)
+        element.addEventListener("click", openModal)
+    });
+    //- Get Close button
+    var closeButton = document.querySelector(".close-dialog__icon");
+
+    //- Events
+    //- dialogButton.addEventListener("click", openModal);
+    closeButton.addEventListener("click", closeModal);
+    //- window.addEventListener("click", clickOutside);
+
+    function openModal(event ) {
+        dialog.style.display = "block";
+        console.log(event, event.target.dataset.videoId)
+        video.src = event.target.dataset.videoId
+    }
+    
+    function closeModal() {
+        dialog.style.display = "none";
+        video.src = ""
+    }
+
+    function clickOutside(e) {
+        if (e.target == modal) {
+            dialog.style.display = "none"
+        }
+    }
