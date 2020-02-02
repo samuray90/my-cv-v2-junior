@@ -1,0 +1,32 @@
+.video
+    .video-modal__box
+        .video-circle
+            span.close-cross.my-cv-cross
+        .video-content
+            iframe(id="display-video" width='302' height='170' src='https://youtu.be/embed/DUVZP9wch-Q' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+
+script.
+    var dialog = document.querySelector(".video");
+    var video = document.querySelector("#display-video")
+    document.querySelectorAll(".youtube-button").forEach(element => {
+        console.log(element)
+        element.addEventListener("click", openModal)
+    });
+    var closeButton = document.querySelector(".close-cross");
+
+    closeButton.addEventListener("click", closeModal);
+
+    function openModal(event ) {
+        dialog.style.display = "block";
+        console.log(event, event.target.dataset.videoId)
+    }
+
+    function closeModal() {
+        dialog.style.display = "none";
+    }
+
+    function clickOutside(e) {
+        if (e.target == modal) {
+            dialog.style.display = "none"
+        }
+    }

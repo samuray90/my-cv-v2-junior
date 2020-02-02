@@ -1,0 +1,30 @@
+.video {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(0, 0%, 0%, 0.502);
+
+  &-modal__box {
+    margin: 50% auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-circle {
+    background: $color-azure-radiance;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: $color-white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+}
