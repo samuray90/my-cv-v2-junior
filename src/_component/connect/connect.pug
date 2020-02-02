@@ -82,9 +82,8 @@
     h1.connect-title=headerName
 .connect-section
     .space
-    button.youtube-button
-        a.link-access(href="https://www.youtube.com")
-            span.youtube-icon(class="my-cv-youtube")
+
+    include ../youtube-modal/youtube-modal
 
     .space
     .hover-effect
@@ -120,5 +119,30 @@
     button.button__disc
         span.my-cv-arrow-down
     .space
+
+//- script.
+//-     var modal = document.getElementById("youtube__modal");
+//-     var openBtn = document.getElementById("youtube__button");
+//-     var closeBtn = document.getElementsByClassName("my-cv-cross")[0];
+
+//-     openBtn.addEventListener("click", openModal);
+//-     closeBtn.addEventListener("click", closeModal);
+
+//-     function openModal() {
+//-             modal.style.display = "block";
+//-     }
+
+//-     function closeModal() {
+//-             modal.style.display = "none";
+//-     }
+
+//-     function clickOutside(e) {
+//-             if (e.target == modal) {
+//-                     modal.style.display = "none";
+//-             }
+//-     }
+
+
+
 
 

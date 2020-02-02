@@ -8,12 +8,14 @@
 }
 
 .welcome-page__header {
+  
   @extend %red-box;
 }
 
 .youtube-button {
   background-color: $color-alizarin-crimson;
   @extend %circle; 
+  color: $color-white;
 }
 
 .link-access {

@@ -34,11 +34,9 @@
     .award-title=awardTitle
 .space
 .award-section
-    button.youtube-button
-        a.link-access(href="htttp://www.youtube.com")
-            span.youtube-icon(class="my-cv-youtube")
-    .space
+    include ../youtube-modal/youtube-modal
 
+    .space
     .award-second__title=secondTitle
     .award-box
         each award in awardList
