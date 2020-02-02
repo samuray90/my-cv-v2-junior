@@ -1,0 +1,40 @@
+{
+  "modalList": [
+    {
+      "id": "#welcome",
+      "src": "https://www.youtube.com/embed/VwjeJOn_PEQ"
+    },
+    {
+      "id": "#connect",
+      "src": "https://www.youtube.com/embed/rN1F1tXQlVM"
+    },
+    {
+      "id": "#skills",
+      "src": "https://www.youtube.com/embed/pxK2YGuYBMw"
+    },
+    {
+      "id": "#experience",
+      "src": "https://www.youtube.com/embed/p8vgqQJz3xk"
+    },
+    {
+      "id": "#stat",
+      "src": "https://www.youtube.com/embed/i2v1b8MyV7A"
+    },
+    {
+      "id": "#portofolio",
+      "src": "https://www.youtube.com/embed/lzWjPR4yQAY"
+    },
+    {
+      "id": "#recomandation",
+      "src": "https://www.youtube.com/embed/nwmoM2VpOmE"
+    },
+    {
+      "id": "#reviews",
+      "src": "https://www.youtube.com/embed/m_ijQVXh660"
+    },
+    {
+      "id": "#im-proud",
+      "src": "https://www.youtube.com/embed/zltBXhtFJvw"
+    }
+  ]
+}

@@ -22,13 +22,15 @@
 
 .red-box
     .section-title Reviews
-#reviews
-.reviews
+- var section = "reviews"
+div(id=section)
+div(class=section)
     .space(height="30")
-    .button-wrapper
-        button.youtube-button
-            a.youtube-link(href="https://www.youtube.com/watch?v=7lgg_MSblRE")      
-                span.youtube-icon(class=`icon-youtube`)
+    include ../modal/modal
+    //- .button-wrapper
+    //-     button.youtube-button
+    //-         a.youtube-link(href="https://www.youtube.com/watch?v=7lgg_MSblRE")      
+    //-             span.youtube-icon(class=`icon-youtube`)
     .space(height="30")
     .reviews-list
         each review in reviewList
