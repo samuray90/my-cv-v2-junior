@@ -2,20 +2,7 @@ doctype html
 html
   head
     title This is the new and improved version of my CV!
+    link(rel="stylesheet", href="style.css")
   body
     .subject
-      .sector-title Let's have a chat!
-      button.circle
-        i.icon__youtube
-        span.button-description YouTube
-      h1 Cornel Cristian Filip
-      h2 Junior Developer
-      h3 My Skills
-      .my-story__box-shadow
-        p Web development flows through my veins, without it I’m not alive. I’m merging with technology to        create the future today! Let’s build the web together and while we’re at it, let’s have a chat. (ό‿ὸ)ﾉ
-        p I taught myself web development while working a full-time job and it was the greatest adventure ever!
-        p I am proud and grateful to be part of the coding community. May the source be with you! (◕‿◕)
-        p Favorite quote: 'If things are not failing, you are not innovating enough.' - Elon Musk
-      button.download-cv
-        i.icon__download-cv
-        span.button-description Download BIO
+      include _component/my-skills/my-skills.pug
