@@ -1,20 +1,65 @@
 {
   "metadata": {
-    "name": "my-cv",
-    "lastOpened": 0,
-    "created": 1575964629688
+    "created": 1580834643077,
+    "name": "icon",
+    "lastOpened": 1580835863618
   },
   "iconSets": [
+    {
+      "selection": [
+        {
+          "order": 1,
+          "id": 0,
+          "prevSize": 32,
+          "code": 59648,
+          "name": "udemy",
+          "tempChar": ""
+        }
+      ],
+      "id": 1,
+      "metadata": {
+        "name": "Brands (subset)",
+        "importSize": {
+          "width": 32,
+          "height": 32
+        },
+        "url": "https://simpleicons.org",
+        "designer": "N/A",
+        "license": "CC0 1.0 Universal",
+        "licenseURL": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+        "iconsHash": 1591697341
+      },
+      "height": 1024,
+      "prevSize": 32,
+      "icons": [
+        {
+          "id": 0,
+          "paths": [
+            "M1006.080 570.88c-3.308-2.818-7.331-4.898-11.756-5.936l-0.191-0.038c-25.6 26.027-57.6 53.333-85.333 71.68-13.227 8.533-29.867 12.8-40.533 12.8-25.173 0-35.84-23.467-38.827-61.44-4.679-55.455-7.347-120.018-7.347-185.204 0-7.339 0.034-14.67 0.101-21.993l-0.008 1.117c0-96.427-22.187-162.133-80.213-167.253l-7.68-0.427c-35.413 0-52.907 18.347-75.52 64.853-19.627 40.107-49.92 98.133-105.813 209.067-46.011 90.848-95.637 168.848-151.864 241.479l2.531-3.399c-13.227 16.213-23.467 27.307-33.28 34.133-5.257 3.644-11.745 5.862-18.746 5.973h-0.028c-18.347 0-32-15.36-36.267-51.627-1.089-8.459-1.71-18.245-1.71-28.175 0-0.445 0.001-0.889 0.004-1.333v0.069c0-74.667 28.16-196.267 76.8-374.613 35.413-130.133 20.48-218.88-57.173-218.88h-1.28c-17.493 0-32 6.827-46.080 17.92-14.080 10.667-27.733 34.56-40.96 66.56-14.507 35.84-103.253 214.613-244.907 307.2-1.707 34.56 17.92 69.547 58.453 73.813 36.267 3.413 62.293-11.947 95.573-34.56l-6.827 31.147c-7.086 27.764-14.533 65.33-20.384 103.423l-0.949 7.51c-19.627 179.2 62.72 267.52 159.573 267.52 16.213 0 32.427-2.133 48.213-6.4 106.667-26.88 209.067-149.76 330.667-432.213-0.88 14.065-1.382 30.503-1.382 47.059 0 13.763 0.347 27.444 1.032 41.037l-0.077-1.909c8.107 162.133 71.68 210.347 162.133 210.347 68.267 0 131.84-35.413 164.267-79.787 20.209-25.521 32.749-57.929 33.702-93.227l0.005-0.213c-0.853-20.907-7.253-37.547-17.92-46.080z"
+          ],
+          "attrs": [
+            {
+              "fill": "rgb(236, 82, 82)"
+            }
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "udemy"
+          ],
+          "grid": 0
+        }
+      ],
+      "invisible": false,
+      "colorThemes": []
+    },
     {
       "selection": [
         {
           "ligatures": "home, house",
           "name": "home",
           "id": 0,
-          "order": 2,
-          "prevSize": 32,
-          "code": 59648,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "home2, house2",
@@ -122,7 +167,10 @@
           "ligatures": "play, video",
           "name": "play",
           "id": 18,
-          "order": 0
+          "order": 8,
+          "prevSize": 32,
+          "code": 59666,
+          "tempChar": ""
         },
         {
           "ligatures": "film, video2",
@@ -200,7 +248,10 @@
           "ligatures": "book, read",
           "name": "book",
           "id": 31,
-          "order": 0
+          "order": 18,
+          "prevSize": 32,
+          "code": 59679,
+          "tempChar": ""
         },
         {
           "ligatures": "books, library",
@@ -464,10 +515,7 @@
           "ligatures": "map, guide",
           "name": "map",
           "id": 75,
-          "order": 3,
-          "prevSize": 32,
-          "code": 59723,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "map2, guide2",
@@ -479,7 +527,10 @@
           "ligatures": "history, time",
           "name": "history",
           "id": 77,
-          "order": 0
+          "order": 24,
+          "prevSize": 32,
+          "code": 59725,
+          "tempChar": ""
         },
         {
           "ligatures": "clock, time2",
@@ -515,10 +566,7 @@
           "ligatures": "calendar, date",
           "name": "calendar",
           "id": 83,
-          "order": 4,
-          "prevSize": 32,
-          "code": 59731,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "printer, print",
@@ -596,7 +644,10 @@
           "ligatures": "download, save",
           "name": "download",
           "id": 96,
-          "order": 0
+          "order": 9,
+          "prevSize": 32,
+          "code": 59744,
+          "tempChar": ""
         },
         {
           "ligatures": "upload, load",
@@ -698,7 +749,10 @@
           "ligatures": "user, profile2",
           "name": "user",
           "id": 113,
-          "order": 0
+          "order": 17,
+          "prevSize": 32,
+          "code": 59761,
+          "tempChar": ""
         },
         {
           "ligatures": "users, group",
@@ -920,10 +974,7 @@
           "ligatures": "hammer, tool2",
           "name": "hammer",
           "id": 150,
-          "order": 6,
-          "prevSize": 32,
-          "code": 59798,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "magic-wand, wizard",
@@ -971,10 +1022,10 @@
           "ligatures": "trophy, cup",
           "name": "trophy",
           "id": 158,
-          "order": 5,
+          "order": 25,
           "prevSize": 32,
           "code": 59806,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "gift, present",
@@ -1070,19 +1121,13 @@
           "ligatures": "briefcase, portfolio",
           "name": "briefcase",
           "id": 174,
-          "order": 8,
-          "prevSize": 32,
-          "code": 59822,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "airplane, travel",
           "name": "airplane",
           "id": 175,
-          "order": 7,
-          "prevSize": 32,
-          "code": 59823,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "truck, transit",
@@ -1166,7 +1211,10 @@
           "ligatures": "menu, list3",
           "name": "menu",
           "id": 189,
-          "order": 0
+          "order": 10,
+          "prevSize": 32,
+          "code": 59837,
+          "tempChar": ""
         },
         {
           "ligatures": "menu2, options2",
@@ -1178,10 +1226,7 @@
           "ligatures": "menu3, options3",
           "name": "menu3",
           "id": 191,
-          "order": 9,
-          "prevSize": 32,
-          "code": 59839,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "menu4, options4",
@@ -1199,7 +1244,10 @@
           "ligatures": "cloud-download, cloud2",
           "name": "cloud-download",
           "id": 194,
-          "order": 0
+          "order": 27,
+          "prevSize": 32,
+          "code": 59842,
+          "tempChar": ""
         },
         {
           "ligatures": "cloud-upload, cloud3",
@@ -1229,7 +1277,10 @@
           "ligatures": "download3, save5",
           "name": "download3",
           "id": 199,
-          "order": 0
+          "order": 11,
+          "prevSize": 32,
+          "code": 59847,
+          "tempChar": ""
         },
         {
           "ligatures": "upload3, load3",
@@ -1247,16 +1298,19 @@
           "ligatures": "earth, globe2",
           "name": "earth",
           "id": 202,
-          "order": 10,
+          "order": 19,
           "prevSize": 32,
           "code": 59850,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "link, chain",
           "name": "link",
           "id": 203,
-          "order": 0
+          "order": 12,
+          "prevSize": 32,
+          "code": 59851,
+          "tempChar": ""
         },
         {
           "ligatures": "flag, report",
@@ -1346,7 +1400,10 @@
           "ligatures": "heart, like",
           "name": "heart",
           "id": 218,
-          "order": 0
+          "order": 7,
+          "prevSize": 32,
+          "code": 59866,
+          "tempChar": ""
         },
         {
           "ligatures": "heart-broken, heart2",
@@ -1376,10 +1433,7 @@
           "ligatures": "happy, emoticon",
           "name": "happy",
           "id": 223,
-          "order": 12,
-          "prevSize": 32,
-          "code": 59871,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "happy2, emoticon2",
@@ -1451,10 +1505,7 @@
           "ligatures": "cool, emoticon13",
           "name": "cool",
           "id": 235,
-          "order": 24,
-          "prevSize": 32,
-          "code": 59883,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "cool2, emoticon14",
@@ -1538,7 +1589,10 @@
           "ligatures": "hipster, emoticon27",
           "name": "hipster",
           "id": 249,
-          "order": 0
+          "order": 28,
+          "prevSize": 32,
+          "code": 59897,
+          "tempChar": ""
         },
         {
           "ligatures": "hipster2, emoticon28",
@@ -1640,10 +1694,7 @@
           "ligatures": "plus, add",
           "name": "plus",
           "id": 266,
-          "order": 14,
-          "prevSize": 32,
-          "code": 59914,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "minus, subtract",
@@ -1655,10 +1706,10 @@
           "ligatures": "info, information",
           "name": "info",
           "id": 268,
-          "order": 15,
+          "order": 22,
           "prevSize": 32,
           "code": 59916,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "cancel-circle, close",
@@ -1676,7 +1727,10 @@
           "ligatures": "cross, cancel",
           "name": "cross",
           "id": 271,
-          "order": 0
+          "order": 20,
+          "prevSize": 32,
+          "code": 59919,
+          "tempChar": ""
         },
         {
           "ligatures": "checkmark, tick",
@@ -1874,7 +1928,10 @@
           "ligatures": "shuffle, random",
           "name": "shuffle",
           "id": 304,
-          "order": 0
+          "order": 30,
+          "prevSize": 32,
+          "code": 59952,
+          "tempChar": ""
         },
         {
           "ligatures": "arrow-up-left, up-left",
@@ -1934,7 +1991,10 @@
           "ligatures": "arrow-up2, up2",
           "name": "arrow-up2",
           "id": 314,
-          "order": 0
+          "order": 6,
+          "prevSize": 32,
+          "code": 59962,
+          "tempChar": ""
         },
         {
           "ligatures": "arrow-up-right2, up-right2",
@@ -1958,7 +2018,10 @@
           "ligatures": "arrow-down2, down2",
           "name": "arrow-down2",
           "id": 318,
-          "order": 0
+          "order": 5,
+          "prevSize": 32,
+          "code": 59966,
+          "tempChar": ""
         },
         {
           "ligatures": "arrow-down-left2, down-left2",
@@ -1976,7 +2039,10 @@
           "ligatures": "circle-up, up3",
           "name": "circle-up",
           "id": 321,
-          "order": 0
+          "order": 15,
+          "prevSize": 32,
+          "code": 59969,
+          "tempChar": ""
         },
         {
           "ligatures": "circle-right, right5",
@@ -1988,7 +2054,10 @@
           "ligatures": "circle-down, down3",
           "name": "circle-down",
           "id": 323,
-          "order": 0
+          "order": 31,
+          "prevSize": 32,
+          "code": 59971,
+          "tempChar": ""
         },
         {
           "ligatures": "circle-left, left5",
@@ -2366,7 +2435,10 @@
           "ligatures": "share2, social",
           "name": "share2",
           "id": 386,
-          "order": 0
+          "order": 32,
+          "prevSize": 32,
+          "code": 60034,
+          "tempChar": ""
         },
         {
           "ligatures": "mail2, contact2",
@@ -2426,10 +2498,7 @@
           "ligatures": "google-plus2, brand6",
           "name": "google-plus2",
           "id": 396,
-          "order": 17,
-          "prevSize": 32,
-          "code": 60044,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "google-plus3, brand7",
@@ -2459,16 +2528,19 @@
           "ligatures": "facebook2, brand11",
           "name": "facebook2",
           "id": 401,
-          "order": 16,
+          "order": 13,
           "prevSize": 32,
           "code": 60049,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "instagram, brand12",
           "name": "instagram",
           "id": 402,
-          "order": 0
+          "order": 14,
+          "prevSize": 32,
+          "code": 60050,
+          "tempChar": ""
         },
         {
           "name": "whatsapp",
@@ -2492,10 +2564,10 @@
           "ligatures": "twitter, brand16",
           "name": "twitter",
           "id": 406,
-          "order": 18,
+          "order": 21,
           "prevSize": 32,
           "code": 60054,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -2651,10 +2723,10 @@
           "ligatures": "github, brand40",
           "name": "github",
           "id": 432,
-          "order": 19,
+          "order": 2,
           "prevSize": 32,
           "code": 60080,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "npm",
@@ -2780,7 +2852,10 @@
           "ligatures": "skype, brand60",
           "name": "skype",
           "id": 453,
-          "order": 0
+          "order": 3,
+          "prevSize": 32,
+          "code": 60101,
+          "tempChar": ""
         },
         {
           "ligatures": "reddit, brand61",
@@ -2804,10 +2879,10 @@
           "ligatures": "linkedin, brand64",
           "name": "linkedin",
           "id": 457,
-          "order": 21,
+          "order": 23,
           "prevSize": 32,
           "code": 60105,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "linkedin2, brand65",
@@ -2849,10 +2924,10 @@
           "ligatures": "stackoverflow, brand71",
           "name": "stackoverflow",
           "id": 464,
-          "order": 20,
+          "order": 4,
           "prevSize": 32,
           "code": 60112,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "pinterest",
@@ -2960,10 +3035,7 @@
           "ligatures": "file-word, file12",
           "name": "file-word",
           "id": 481,
-          "order": 22,
-          "prevSize": 32,
-          "code": 60129,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "file-excel, file13",
@@ -2981,10 +3053,7 @@
           "ligatures": "html-five, w3c",
           "name": "html-five",
           "id": 484,
-          "order": 23,
-          "prevSize": 32,
-          "code": 60132,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "html-five2, w3c2",
@@ -11504,9 +11573,9 @@
     "showQuickUse2": true,
     "showSVGs": true,
     "fontPref": {
-      "prefix": "my-cv-",
+      "prefix": "icon-",
       "metadata": {
-        "fontFamily": "my-cv",
+        "fontFamily": "icomoon",
         "majorVersion": 1,
         "minorVersion": 0
       },
@@ -11515,7 +11584,9 @@
         "baseline": 6.25,
         "whitespace": 50
       },
-      "embed": false
+      "embed": false,
+      "noie8": true,
+      "ie7": false
     },
     "imagePref": {
       "prefix": "icon-",
@@ -11525,6 +11596,5 @@
       "bgColor": 16777215
     },
     "historySize": 50
-  },
-  "time": 1575967487258
+  }
 }
