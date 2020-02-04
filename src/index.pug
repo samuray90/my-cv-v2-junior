@@ -2,20 +2,8 @@ doctype html
 html
   head
     title This is another CV
+    link(rel="stylesheet", href="style.css")
   body
     //-content
     .composition
-      //-section-title
-      .first-title Meet me
-      button.youtube-circle
-        span.my-cv-youtube
-        span.circle-text YTb
-      h1 Bianca Andrei
-      h2 Junior Front-End Developer
-      h3 Something about me
-      //-description-box__with-shadow
-      .description-shadow
-        p I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.
-    button.download-wrapper
-      span.my-cv-download
-      span.circle-text Click for CV
+      include _component/meet-me/meet-me
