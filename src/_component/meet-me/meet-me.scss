@@ -1,7 +1,7 @@
 .first-title__wrapper {
   margin: 10px;
   height: 60px;
-  background-color: #FF7F50;
+  background-color: #D25914;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);
 }
 
@@ -48,4 +48,25 @@
   color: #707070;
   font-weight: 600;
   line-height: 30px;
+}
+
+.first-circle {
+  background-color:#D25914;
+}
+
+.second-circle {
+  background-color: greenyellow;
+}
+
+.first-circle,
+.second-circle {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  color: black;
 }
