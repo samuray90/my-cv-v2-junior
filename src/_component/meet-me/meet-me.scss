@@ -5,19 +5,19 @@
   position: relative;
 
   &::before {
-    content: '';
+    content: ' ';
     position: absolute;
     background-color: rgb(194, 101, 172);
     left: -36px;
-    left: 0;
+    top: 0;
     bottom: 0;
-    right: 0;
+    right: -36px;
   }
 
   &::after {
     position: absolute;
-    content: '';
-    left: 0;
+    content: ' ';
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
