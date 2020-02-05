@@ -1,7 +1,7 @@
 .first-title__wrapper {
   margin: 10px;
   height: 60px;
-  background-color: #b32d00;
+  background-color: #FF7F50;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);
 }
 
@@ -9,5 +9,43 @@
   height: 40px;
   line-height: 40px;
   text-align: center;
-  color:white;
+  color:black;
+}
+
+.meet-me__job,
+.meet-me__name {
+  color: #707070;
+  text-align: center;
+  font-weight: 600;
+}
+
+.meet-me__name {
+  font-size: 43px;
+  line-height: 60px;
+}
+
+.meet-me__job {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.meet-me__another-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.description-shadow {
+  background-color: #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.40);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.paragraph {
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+  line-height: 30px;
 }
