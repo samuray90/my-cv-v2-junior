@@ -1,12 +1,27 @@
-.circle__button--red {
+.button__circle--red {
   background-color: #d52027;
 }
 
-.circle__button--green {
+.button__circle--green {
   background-color: #50d166;
 }
-.circle__button--red,
-.circle__button--green {
+
+.button__oval-blue {
+  background-color: #1875f0;
+}
+
+.button__oval-blue {
+  height: 40px;
+  margin: 20px auto 0;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+}
+
+.button__circle--red,
+.button__circle--green {
   margin: 20px auto;
   width: 40px;
   height: 40px;
@@ -16,6 +31,12 @@
   border: 0;
   border-radius: 50%;
   color: #fff;
+}
+
+button i[class^="icon__"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
 }
 
 .my-story__box-shadow {
