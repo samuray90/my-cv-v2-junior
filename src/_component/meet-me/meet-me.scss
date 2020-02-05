@@ -50,6 +50,12 @@
   line-height: 30px;
 }
 
+button span[class^="icon-"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
 .first-circle {
   background-color:#D25914;
 }
@@ -69,4 +75,14 @@
   border: none;
   border-radius: 50%;
   color: black;
+}
+
+.download-wrapper {
+  background-color: pink;
+  height: 40px;
+  margin: 20px auto 0;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
 }
