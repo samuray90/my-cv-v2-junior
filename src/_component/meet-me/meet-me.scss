@@ -1,8 +1,28 @@
 .first-title__wrapper {
-  margin: 10px;
+  padding: 10px;
   height: 60px;
-  background-color: #D25914;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);
+  background-color: rgb(194, 101, 172);
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(194, 101, 172);
+    left: -36px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  &::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.40);
+  }
 }
 
 .first-title {
@@ -10,6 +30,9 @@
   line-height: 40px;
   text-align: center;
   color:black;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .meet-me__job,
@@ -50,18 +73,20 @@
   line-height: 30px;
 }
 
-button span[class^="icon-"] {
+.download-wrapper span[class^="icon-"] {
   width: 16px;
   height: 16px;
   margin-right: 12px;
+  font-weight: 600;
 }
 
+
 .first-circle {
-  background-color:#D25914;
+  background-color:rgb(194, 101, 172);
 }
 
 .second-circle {
-  background-color: greenyellow;
+  background-color: rgb(231, 192, 233);
 }
 
 .first-circle,
@@ -85,4 +110,10 @@ button span[class^="icon-"] {
   border-radius: 20px;
   padding: 0 24px;
   display: flex;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.icon-arrow-down2 {
+  font-weight: 600;
 }
