@@ -6,11 +6,11 @@
   background-color: #50d166;
 }
 
-.button__oval-blue {
+.button__oval--blue {
   background-color: #1875f0;
 }
 
-.button__oval-blue {
+.button__oval--blue {
   height: 40px;
   margin: 20px auto 0;
   color: white;
@@ -18,6 +18,9 @@
   border-radius: 20px;
   padding: 0 24px;
   display: flex;
+  font-size: 10px;
+  font-weight: bolder;
+  align-items: center;
 }
 
 .button__circle--red,
@@ -33,10 +36,13 @@
   color: #fff;
 }
 
-button i[class^="icon__"] {
+button[class^="button__oval"] i[class^="icon__"] {
   width: 16px;
   height: 16px;
   margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .my-story__box-shadow {
@@ -54,24 +60,24 @@ button i[class^="icon__"] {
   color: #707070;
 }
 
-.my-story__name {
+.my-story__name-title {
   font-size: 48px;
   line-height: 64px;
 }
 
-.my-story__role {
+.my-story__role-title {
   font-size: 36px;
   line-height: 48px;
 }
 
-.my-story__role,
-.my-story__name {
+.my-story__role-title,
+.my-story__name-title {
   font-weight: 600;
   color: #707070;
   text-align: center;
 }
 
-.my-story__skills {
+.my-story__skills-title {
   line-height: 30px;
   font-weight: 600;
   font-size: 22px;
@@ -83,11 +89,34 @@ button i[class^="icon__"] {
   line-height: 40px;
   text-align: center;
   color: white;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .sector__title-wrap {
   padding: 10px;
   height: 60px;
   background-color: #d52027;
-  box-shadow: 0 2px 6px rgba($color: #000, $alpha: 0.16);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-color: #d52027;
+    left: -36px;
+    top: 0;
+    bottom: 0;
+    right: -36px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    box-shadow: 0 2px 6px rgba($color: #000, $alpha: 0.35);
+  }
 }
