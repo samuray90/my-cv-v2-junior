@@ -2,7 +2,27 @@
   height: 60px;
   background-color: #d52027;
   padding: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-color: #d52027;
+    left: -36px;
+    top: 0;
+    bottom: 0;
+    right: -36px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 .button-wrapper__red-content {
@@ -29,6 +49,9 @@
   line-height: 40px;
   text-align: center;
   color: white;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .page-title__name,
@@ -84,12 +107,18 @@
   border: 0;
   border-radius: 20px;
   padding: 0 24px;
+  font-size: 10px;
+  font-weight: bolder;
+  align-items: center;
 }
 
-button [class^="icon__"] {
+button[class^="download-button"] [class^="icon__"] {
   width: 16px;
   height: 16px;
   margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .download-button {
