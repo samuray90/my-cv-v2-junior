@@ -5,6 +5,26 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
 }
 
+.button-wrapper__red-content {
+  background-color: #d52027;
+}
+
+.button-wrapper__green-arrow {
+  background-color: #50d166;
+}
+
+.button-wrapper__red-content,
+.button-wrapper__green-arrow {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  border: 0;
+}
+
 .page-title {
   line-height: 40px;
   text-align: center;
