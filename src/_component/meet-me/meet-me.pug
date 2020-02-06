@@ -1,6 +1,7 @@
+//- pre=JSON.stringify(data['meet-me'], null, 2)
 .column(span="row")
   .first-title__wrapper
-    .first-title Meet me
+    .first-title=data['meet-me'].firstTitle
 .column(span="row" height="10")
 .column(span="row")
   button.first-circle
@@ -8,21 +9,21 @@
     span.circle-text
 .column(span="row" height="10")
 .column(span="row")
-  h1.meet-me__name Bianca Andrei
+  h1.meet-me__name=data['meet-me'].nameTitle
 .column(span="row")
-  h2.meet-me__job Junior Front-End Developer
+  h2.meet-me__job=data['meet-me'].jobTitle
 .column(span="row" height="10")
 .column(span="row")
-  h3.meet-me__another-title Something about me
+  h3.meet-me__another-title=data['meet-me'].anotherTitle
 .column(span="row")
   //-description-box__with-shadow
   .description-shadow
-    p.paragraph I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. Let’s have a chat.
+    p.paragraph=data['meet-me'].paragraphTitle
 .column(span="row" height="10")
 .column(span="row")
   button.download-wrapper
     span.icon-download
-    span.circle-text Click for CV
+    span.circle-text=data['meet-me'].circleTitle
 .column(span="row" height="10")
 .column(span="row")
   button.second-circle
