@@ -75,3 +75,23 @@
   font-weight: 600;
   line-height: 30px;
 }
+
+.download-button {
+  display: flex;
+  height: 40px;
+  margin: 20px auto 0;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+}
+
+button [class^="icon__"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.download-button {
+  background-color: #1875f0;
+}
