@@ -1,0 +1,16 @@
+.social-network__avatar {
+  padding-top: 100%;
+  background: red;
+  position: relative;
+
+  &:after {
+    content: '';
+    background-image: url('/asset/image/profile picture.png');
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+  }
+}
