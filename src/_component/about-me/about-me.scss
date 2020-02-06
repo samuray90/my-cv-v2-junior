@@ -43,9 +43,9 @@
   font-weight: 600;
 }
 
-.my-name {
-  font-size: 30px;
-  line-height: 60px;
+.another-title {
+  font-size: 20px;
+  line-height: 30px;
   color: #707070;
 }
 
@@ -62,3 +62,76 @@
   // font-weight: 600;
   line-height: 25px;
 }
+
+.circle {
+  display: block;
+  border: none;
+  margin: auto;
+  background-color: white;
+}
+
+.video-link {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  padding: 6px;
+  background: linear-gradient(0deg, #ddd, #fff);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.30);
+  text-decoration: none;
+  border-radius: 50%;
+  transition: .5s;
+
+  &:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.30);
+  }
+}
+
+.icon--video-camera {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: .5s;
+
+  &:hover {
+    color: rgb(146, 52, 115);
+  }
+}
+
+.button-wrapper {
+  display: block;
+  margin-left: 30%;
+}
+
+.about-me__button {
+  background: #808080;
+  color: white;
+  border: none;
+  padding: 12px 20px 12px 30px;
+  border-radius: 20px;
+  margin-left: -25px;
+  z-index: -1;
+  position: absolute;
+  font-weight: 600;
+}
+
+.icon--download {
+  position: relative;
+  font-size: 25px;
+  background-color: rgb(255, 30, 0);
+  border-radius: 50%;
+  padding: 10px;
+  top: 6px;
+}
+
+.second-link {
+  text-decoration: none;
+  color: black;
+}
+
