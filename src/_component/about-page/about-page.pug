@@ -1,30 +1,28 @@
+//- pre=JSON.stringify(data["about-page"],null, 2)
 .column(span="row")
     .page-title__wrapper
-        .page-title Welcome to My Resume
+        .page-title=data["about-page"].pageTitle
 .column(span="row" height="10")
 .column(span="row")
     button.button-wrapper__red-content
         i.icon__youtube
 .column(span="row" height="10")
 .column(span="row")
-    h1.page-title__name Bogdan Negura
+    h1.page-title__name=data["about-page"].pageTitleName
 .column(span="row" height="10")
 .column(span="row")
-    h2.page-title__position Junior Fron-End Developer
+    h2.page-title__position=data["about-page"].pageTitlePosition
 .column(span="row")
-    h3.page-title__chapter About me
+    h3.page-title__chapter=data["about-page"].pageTitleChapter
 .column(span="row")
     .my-details
-        p.words I build a better world brick by brick. I fall in love with React and Redux and I’m eager to create amazing interfaces and bring a HUGE smile on your face. Let’s talk.
-        .my-details__wrapper
-            .adress Address: Slough, London
-            .phone-no Mobile: 07431231234
-            .email Email: negura.bogdan.90@gmail.com
+        each description in data["about-page"].descriptionList
+            p.wordsdata=description
 .column(span="row" height="10")
 .column(span="row")
     button.download-button
         i.icon__download
-        span.general-button Download Resume
+        span.general-button=data["about-page"].downloadButton
 .column(span="row" height="10")
 .column(span="row")
     button.button-wrapper__green-arrow
