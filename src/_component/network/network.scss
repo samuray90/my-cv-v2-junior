@@ -27,6 +27,11 @@
     display: block;
   color: white;
 
+  &[for="network-reset"] {
+    width: 40px;
+    color: white;
+  }
+
   [class^="icon-"] {
     transition: 250ms;
     position: absolute;
@@ -52,6 +57,7 @@ input[type="radio"] {
 .description-shadow__with-cross {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.40);
   border-radius: 6px;
+  background-color: white;
 }
 
 .description-header {
@@ -62,9 +68,22 @@ input[type="radio"] {
 .description-title {
   flex-grow: 1;
   line-height: 40px;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: capitalize;
 }
 
-[for="network-reset"] {
-  width: 40px;
-  color: white;
+.description-paragraph {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.description-body,
+.description-footer {
+  padding: 20px;
+}
+
+.description-body {
+  border-top: 2px solid #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
 }
