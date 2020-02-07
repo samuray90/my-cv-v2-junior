@@ -1,11 +1,20 @@
-- var firstTitle = data['social-network'].firstTitle
+- var firstTitle = data.network.firstTitle
 include ../first-title-wrapper/first-title-wrapper
 
+.column(span="row" height="10")
 .column(span="row")
   .social-network__avatar
 .column(span="row")
 
-.column(span="1")
-  .social-network__disc
-    span.icon-facebook2
+each social in data.network.socialList
+  .column(span="1")
+    .social-network__disc
+      div(class=`icon-${social.icon}`)
+
+.column(span="row" height="10")
+.column(span="row")
+  button.second-circle
+    span.icon-arrow-down2
+    span.circle-text
+.column(span="row" height="10")
 

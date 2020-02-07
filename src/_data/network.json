@@ -1,0 +1,62 @@
+{
+  "firstTitle": "Social Networks",
+  "avatar": "asset/image/profile picture.png",
+  "socialList": [
+    {
+      "icon": "facebook2",
+      "title": "Facebook",
+      "text": "skihsjjjis",
+      "label": "",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "udemy",
+      "title": "Udemy",
+      "text": "skihsjjjis",
+      "label": "",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "text": "skihsjjjis",
+      "label": "",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "text": "skihsjjjis",
+      "label": "",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "github",
+      "title": "Github",
+      "text": "skihsjjjis",
+      "label": "",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "linkedin",
+      "title": "Linkedin",
+      "text": "skihsjjjis",
+      "label": "",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "Stackoverflow",
+      "text": "skihsjjjis",
+      "label": "",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "skype",
+      "title": "Skype",
+      "text": "skihsjjjis",
+      "label": "",
+      "link": "https://facebook.com"
+    }
+  ]
+}
