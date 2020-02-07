@@ -3,14 +3,18 @@ include ../first-title-wrapper/first-title-wrapper
 
 .column(span="row" height="10")
 .column(span="row")
-  .social-network__avatar
+  .network__avatar
 .column(span="row")
 
-each social in data.network.socialList
-  input.social-network__radio(type="radio")
+each social, key in data.network.socialList
+  input.network__radio(
+    type="radio"
+    name="key"
+    id=`network-${key}`
+  )
   .column(span="1")
-    .social-network__disc
-      i(class=`icon-${social.icon}`)
+    label(for=`network-${key}`).network__disc
+      span(class=`icon-${social.icon}`)
 
 .column(span="row" height="10")
 .column(span="row")

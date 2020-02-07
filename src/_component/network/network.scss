@@ -1,4 +1,4 @@
-.social-network__avatar {
+.network__avatar {
   padding-top: 100%;
   background: white;
   position: relative;
@@ -19,14 +19,15 @@
   }
 }
 
-.social-network__disc {
+.network__disc {
   background-color: rgb(192, 39, 65);
   border-radius: 50%;
   padding-top: 100%;
   position: relative;
-  color: white;
+  // color: white;
 
   [class^="icon-"] {
+    display: block;
     transition: 250ms;
     position: absolute;
     top: 0;
@@ -40,6 +41,6 @@
   }
 }
 
-.social-network__radio:checked + .column > .social-network__disc {
+.network__radio:checked + .column .network__disc {
   background-color: goldenrod;
 }
