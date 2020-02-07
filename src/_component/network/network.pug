@@ -7,15 +7,18 @@ include ../first-title-wrapper/first-title-wrapper
 .column(span="row")
 
 each social, key in data.network.socialList
-  input.network__radio(
-    type="radio"
-    name="key"
-    id=`network-${key}`
-  )
+  input.network__radio(type="radio" name="network-input" id=`network-${key}`)
   .column(span="1")
     label(for=`network-${key}`).network__disc
       span(class=`icon-${social.icon}`)
 
+.column(span="row" height="10")
+.column(span="row")
+  .description-shadow
+    input.network__radio(type="radio" name="network-input" id=`network-reset`)
+    .column(span="1")
+      label(for=`network-reset`).network__disc
+        span(class="icon-cross")
 .column(span="row" height="10")
 .column(span="row")
   button.second-circle

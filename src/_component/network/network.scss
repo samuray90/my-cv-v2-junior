@@ -44,3 +44,7 @@
 .network__radio:checked + .column .network__disc {
   background-color: goldenrod;
 }
+
+input[type="radio"] {
+  display: none;
+}
