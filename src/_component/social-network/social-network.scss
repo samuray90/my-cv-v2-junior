@@ -27,6 +27,7 @@
   color: white;
 
   [class^="icon-"] {
+    transition: 250ms;
     position: absolute;
     top: 0;
     right: 0;
@@ -37,4 +38,8 @@
     align-items: center;
     font-size: 8vw;
   }
+}
+
+.social-network__radio:checked + .column > .social-network__disc {
+  background-color: goldenrod;
 }
