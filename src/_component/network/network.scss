@@ -8,7 +8,7 @@
 
   &:after {
     content: '';
-    background-image: url('/asset/image/profile picture.png');
+    background-image: url('asset/image/profile picture.png');
     position: absolute;
     top: 10px;
     bottom: 10px;
@@ -110,4 +110,17 @@ input[type="radio"] {
 
 [data-description] {
   display: none;
+}
+
+.download-wrapper {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-link {
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
 }
