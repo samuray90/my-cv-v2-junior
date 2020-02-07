@@ -8,7 +8,7 @@
 
   &:after {
     content: '';
-    background-image: url('asset/image/profile picture.png');
+    background-image: url('/asset/image/profile picture.png');
     position: absolute;
     top: 10px;
     bottom: 10px;
@@ -47,4 +47,24 @@
 
 input[type="radio"] {
   display: none;
+}
+
+.description-shadow__with-cross {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.40);
+  border-radius: 6px;
+}
+
+.description-header {
+  display: flex;
+  padding: 20px;
+}
+
+.description-title {
+  flex-grow: 1;
+  line-height: 40px;
+}
+
+[for="network-reset"] {
+  width: 40px;
+  color: white;
 }

@@ -14,11 +14,14 @@ each social, key in data.network.socialList
 
 .column(span="row" height="10")
 .column(span="row")
-  .description-shadow
-    input.network__radio(type="radio" name="network-input" id=`network-reset`)
-    .column(span="1")
-      label(for=`network-reset`).network__disc
-        span(class="icon-cross")
+  .description-shadow__with-cross
+    .description-header
+      .description-title
+      .description-close
+        input.network__radio(type="radio" name="network-input" id=`network-reset`)
+        .column(span="1")
+          label(for=`network-reset`).network__disc
+            span(class="icon-cross")
 .column(span="row" height="10")
 .column(span="row")
   button.second-circle
