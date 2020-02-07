@@ -8,7 +8,7 @@
 
   &:after {
     content: '';
-    background-image: url('/asset/image/profile picture.png');
+    background-image: url('asset/image/profile picture.png');
     position: absolute;
     top: 10px;
     bottom: 10px;
@@ -24,10 +24,10 @@
   border-radius: 50%;
   padding-top: 100%;
   position: relative;
-  // color: white;
+    display: block;
+  color: white;
 
   [class^="icon-"] {
-    display: block;
     transition: 250ms;
     position: absolute;
     top: 0;
