@@ -1,20 +1,18 @@
+- var firstTitle = data['about-me'].firstTitle
 include ../title-box/title-box
-.column(span="row")
 
-  .first-title=data['about-me'].firstTitle
-  .second-title=data['about-me'].secondTitle
 .column(span="row" height="10")
 .column(span="row")
-  h1.another-title Why photography?
+  h1.another-title=data['about-me'].anotherTitle
 .column(span="row")
   .text-wrapper
-    p.paragraph Photography opens your mind and your eyes. You start noticing things in very high detail. Normal people wont notice a lot of things while walking on a street but you’ll start noticing a broken window, a out of colour rooftop, a structure that should not have been there. You travel, learn, make mistakes and then try to improve. Photography is not just a hobby, it is an art of studying people and places.
+    p.paragraph=data['about-me'].paragraphTitle
 .column(span="row" height="10")
 .column(span="row")
   .button-wrapper
     a.second-link(href="asset/doc/resume-bianca-andrei.docx")
       span.icon--download
-    button.about-me__button About me
+    button.about-me__button=data['about-me'].aboutTitle
 .column(span="row" height="10")
 .column(span="row")
   span.icon--arrow-down2
