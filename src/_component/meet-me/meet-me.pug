@@ -1,6 +1,12 @@
-- var firstTitle = data['meet-me'].firstTitle;
+- var firstTitle = data.meet.firstTitle;
 include ../title-box/title-box
 
 .column(span="row" height="10")
 .column(span="row")
   .meet-me__avatar
+.column(span="row")
+
+each social in data.meet.socialList
+  .column(span="1")
+    .meet-me__circle
+      i(class=`icon--${social.icon}`)
