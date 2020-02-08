@@ -6,7 +6,9 @@ include ../title-box/title-box
   .meet-me__avatar
 .column(span="row")
 
-each social in data.meet.socialList
+input.meet-me_radio(type="radio" name="input-radio" id=`meet-me__label--reset`)
+each social, key in data.meet.socialList
+  input.meet-me_radio(type="radio" name="input-radio" id=`meet-me__label--${key}`)
   .column(span="1")
-    .meet-me__circle
+    label(for=`meet-me__label--${key}`).meet-me__circle
       i(class=`icon--${social.icon}`)

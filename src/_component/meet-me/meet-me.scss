@@ -18,7 +18,14 @@
   }
 }
 
+.meet-me_radio:checked + .column .meet-me__circle {
+  background-color: #20d55d;
+
+}
+
 .meet-me__circle {
+  display: block;
+  transition: 250ms;
   background-color: rgb(245, 124, 190);
   border-radius: 50%;
   padding-top: 100%;
