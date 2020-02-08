@@ -1,0 +1,18 @@
+.meet-me__avatar {
+  padding-top: 100%;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.40);
+  position: relative;
+  border-radius: 8px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    background-image: url('/asset/image/profile picture.png');
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 6px;
+  }
+}
