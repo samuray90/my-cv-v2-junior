@@ -1,0 +1,33 @@
+- var firstTitle = data.network.firstTitle
+include ../first-title-wrapper/first-title-wrapper
+.column(span="row" height="10")
+.column(span="row")
+  .network__avatar
+.column(span="row")
+each social, key in data.network.socialList
+  input.network__radio(type="radio" name="network-input" id=`network-${key}`)
+  .column(span="1")
+    label(for=`network-${key}`).network__disc
+      i(class=`icon-${social.icon}`)
+
+each social, key in data.network.socialList
+  .column(span="row" data-description=key+1)
+    .description-shadow__with-arrow
+      .description-header
+        .description-title=social.title
+        .description-close
+          input.network__radio(type="radio" name="network-input" id=`network-reset`)
+          label(for=`network-reset`).network__disc
+            i(class=`icon-cross`)
+      .description-body
+        p.description-paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, animi fugiat soluta eum reiciendis ex, nostrum nam rem amet vero aperiam quasi neque, asperiores eligendi! Laborum perspiciatis laudantium hic minima.
+      .description-footer
+        a(href=social.link target="_blank").download-wrapper
+          i.icon-link
+            span.circle-text=social.label
+.column(span="row" height="10")
+.column(span="row")
+  button.second-circle
+    span.icon-arrow-down2
+    span.circle-text
+.column(span="row" height="10")

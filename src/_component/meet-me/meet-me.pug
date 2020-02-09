@@ -1,0 +1,25 @@
+-  var firstTitle = data['meet-me'].firstTitle
+
+include ../first-title-wrapper/first-title-wrapper
+.column(span="row" height="10")
+.column(span="row")
+  h1.meet-me__name=data['meet-me'].nameTitle
+.column(span="row")
+  h2.meet-me__job=data['meet-me'].jobTitle
+.column(span="row" height="10")
+.column(span="row")
+  h3.meet-me__another-title=data['meet-me'].anotherTitle
+.column(span="row")
+  //-description-box__with-shadow
+  .description-shadow
+    p.paragraph=data['meet-me'].paragraphTitle
+.column(span="row" height="10")
+.column(span="row")
+  button.download-wrapper
+    span.icon-download
+    span.circle-text=data['meet-me'].circleTitle
+.column(span="row" height="10")
+.column(span="row")
+  button.second-circle
+    span.icon-arrow-down2
+    span.circle-text

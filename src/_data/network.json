@@ -1,0 +1,62 @@
+{
+  "firstTitle": "Social Networks",
+  "avatar": "asset/image/profile picture.png",
+  "socialList": [
+    {
+      "icon": "facebook2",
+      "title": "Facebook",
+      "text": "I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. ",
+      "label": "Facebook",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "udemy",
+      "title": "Udemy",
+      "text": "I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. ",
+      "label": "Udemy",
+      "link": "https://www.udemy.com"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "text": "Udemy",
+      "label": "Instagram",
+      "link": "https://www.instagram.com"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "text": "I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. ",
+      "label": "Twitter",
+      "link": "https://www.twitter.com"
+    },
+    {
+      "icon": "github",
+      "title": "Github",
+      "text": "I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. ",
+      "label": "Github",
+      "link": "https://www.github.com"
+    },
+    {
+      "icon": "linkedin",
+      "title": "Linkedin",
+      "text": "I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. ",
+      "label": "Linkedin",
+      "link": "https://www.linkedin.com"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "Stackoverflow",
+      "text": "I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. ",
+      "label": "Stackoverflow",
+      "link": "https://www.stackoverflow.com"
+    },
+    {
+      "icon": "skype",
+      "title": "Skype",
+      "text": "I bring happiness to my clients and users by building amazing easy to use interfaces. I’m proud to help the coding community. ",
+      "label": "Skype",
+      "link": "https://www.skype.com"
+    }
+  ]
+}
