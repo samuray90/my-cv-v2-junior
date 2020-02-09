@@ -6,9 +6,21 @@ include ../title-box/title-box
   .meet-me__avatar
 .column(span="row")
 
-input.meet-me_radio(type="radio" name="input-radio" id=`meet-me__label--reset`)
 each social, key in data.meet.socialList
   input.meet-me_radio(type="radio" name="input-radio" id=`meet-me__label--${key}`)
   .column(span="1")
     label(for=`meet-me__label--${key}`).meet-me__circle
       i(class=`icon--${social.icon}`)
+
+.column(span="row" height="10")
+.column(span="row")
+  .description-box
+    .description-box__header
+      .description-box__title Title
+      .description-box__close
+        input.meet-me_radio(type="radio" name="input-radio" id=`meet-me__label--reset`)
+        .column(span="1")
+          label(for=`meet-me__label--reset`).meet-me__circle
+            i(class=`icon--cross`)
+.column(span="row" height="10")
+.column(span="row")

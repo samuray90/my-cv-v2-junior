@@ -32,6 +32,11 @@
   position: relative;
   color: black;
   cursor: pointer;
+
+  &[for="meet-me__label--reset"] {
+    width: 40px;
+    color: white;
+  }
 }
 
 [class^="icon--"] {
@@ -45,3 +50,23 @@
   align-items: center;
   font-size: 8vw;
 }
+
+input[type="radio"] {
+  display: none;
+}
+
+.description-box {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.40);
+  border-radius: 6px;
+}
+
+.description-box__header {
+  padding: 20px;
+  display: flex;
+}
+
+.description-box__title {
+  flex-grow: 1;
+  line-height: 40px;
+}
+
