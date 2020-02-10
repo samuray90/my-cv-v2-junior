@@ -1,0 +1,112 @@
+.network__avatar {
+  padding-top: 100%;
+  background: white;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  transform: rotate(-2.5deg);
+
+  &:after {
+    content: '';
+    background-image: url('asset/image/profile picture.png');
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    background-size: cover;
+    border-radius: 6px
+  }
+}
+.network__disc {
+  background-color: rgb(192, 39, 65);
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+    display: block;
+  color: white;
+  &[for="network-reset"] {
+    width: 40px;
+    color: white;
+  }
+  [class^="icon-"] {
+    transition: 250ms;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+  }
+}
+.network__radio:checked + .column .network__disc {
+  background-color: goldenrod;
+}
+input[type="radio"] {
+  display: none;
+}
+.description-shadow__with-arrow {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.40);
+  border-radius: 6px;
+  background-color: white;
+  position: relative;
+  &::after {
+    content:'';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.40);
+    top: -7px;
+    left: 15px;
+    clip-path: polygon(-6px -6px, 100% 0, 0 100%);
+    transform: rotate(45deg);
+  }
+}
+.description-header {
+  display: flex;
+  padding: 20px;
+}
+.description-title {
+  flex-grow: 1;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.description-paragraph {
+  font-size: 14px;
+  line-height: 30px;
+}
+.description-body,
+.description-footer {
+  padding: 20px;
+}
+.description-body {
+  border-top: 2px solid #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
+}
+@for $i from 1 to 8 {
+.network__radio:nth-of-type(#{$i}):checked ~ [data-description="#{$i}"] {
+  display: block;
+  }
+}
+[data-description] {
+  display: none;
+}
+
+.download-wrapper {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-link {
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+}

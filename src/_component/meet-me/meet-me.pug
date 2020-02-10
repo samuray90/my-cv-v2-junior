@@ -1,12 +1,6 @@
-//- pre=JSON.stringify(data['meet-me'], null, 2)
-.column(span="row")
-  .first-title__wrapper
-    .first-title=data['meet-me'].firstTitle
-.column(span="row" height="10")
-.column(span="row")
-  button.first-circle
-    span.icon-play
-    span.circle-text
+-  var firstTitle = data['meet-me'].firstTitle
+
+include ../first-title-wrapper/first-title-wrapper
 .column(span="row" height="10")
 .column(span="row")
   h1.meet-me__name=data['meet-me'].nameTitle
