@@ -1,0 +1,149 @@
+.title-box {
+  padding: 10px;
+  height: 60px;
+  background-color: rgb(146, 52, 115);
+  position: relative;
+
+  &::before {
+    content: ' ';
+    position: absolute;
+    background-color: rgb(146, 52, 115);
+    left: -36px;
+    top: 0;
+    bottom: 0;
+    right: -36px;
+  }
+
+  &::after {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 2px 6px black;
+  }
+}
+
+.title-wrapper {
+  display: block;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.first-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.second-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.another-title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #707070;
+}
+
+.text-wrapper {
+  background-color: white;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.50);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.paragraph {
+  font-size: 14px;
+  color: #808080;
+  // font-weight: 600;
+  line-height: 25px;
+}
+
+.circle {
+  display: block;
+  border: none;
+  margin: auto;
+  background-color: white;
+}
+
+.video-link {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  padding: 6px;
+  background: linear-gradient(0deg, rgb(192, 187, 187), #fff);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.50);
+  text-decoration: none;
+  border-radius: 50%;
+  transition: .5s;
+
+  &:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.30);
+  }
+}
+
+.icon--video-camera {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, rgb(192, 187, 187));
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: .5s;
+
+  &:hover {
+    color: rgb(146, 52, 115);
+  }
+}
+
+.button-wrapper {
+  display: block;
+  margin-left: 25%;
+}
+
+.about-me__button {
+  background: #808080;
+  color: white;
+  border: none;
+  padding: 12px 20px 12px 30px;
+  border-radius: 20px;
+  margin-left: -25px;
+  z-index: -1;
+  position: absolute;
+  font-weight: 600;
+}
+
+.icon--download {
+  position: relative;
+  font-size: 25px;
+  background-color: rgb(255, 30, 0);
+  border-radius: 50%;
+  padding: 10px;
+  top: 6px;
+}
+
+.second-link {
+  text-decoration: none;
+  color: black;
+}
+
+.icon--arrow-down2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-size: 25px;
+
+  &:hover {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(146, 52, 115);
+  }
+}
