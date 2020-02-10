@@ -1,0 +1,29 @@
+.column(span="row")
+  .sector__title-wrap
+    .sector__title=data['my-story'].sectorTitle
+.column(span="row" height="10")
+.column(span="row")
+  button.button__circle--red
+    i.icon__youtube
+.column(span="row" height="10")
+.column(span="row")
+  h1.my-story__name-title=data['my-story'].nameTitle
+.column(span="row")
+  h2.my-story__role-title=data['my-story'].roleTitle
+.column(span="row" height="10")
+.column(span="row")
+  h3.my-story__story-title My Story
+.column(span="row")
+  .my-story__box-shadow
+    each narrative in data['my-story'].narrativeList
+      p.my-story-narrative=narrative
+.column(span="row" height="10")
+.column(span="row")
+  button.button__oval--blue
+    i.icon__download
+    span.button-description=data['my-story'].downloadButton
+.column(span="row" height="10")
+.column(span="row")
+  button.button__circle--green
+    i.icon__arrow-down
+.column(span="row" height="10")
