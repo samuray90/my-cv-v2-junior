@@ -1,0 +1,126 @@
+.page-title__wrapper {
+  height: 60px;
+  background-color: #d52027;
+  padding: 10px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-color: #d52027;
+    left: -36px;
+    top: 0;
+    bottom: 0;
+    right: -36px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.button-wrapper__red-content {
+  background-color: #d52027;
+}
+
+.button-wrapper__green-arrow {
+  background-color: #50d166;
+}
+
+.button-wrapper__red-content,
+.button-wrapper__green-arrow {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  border: 0;
+}
+
+.page-title {
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.page-title__name,
+.page-title__position {
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
+}
+
+.page-title__name {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.page-title__position {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.page-title__chapter {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.my-details {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.my-details__wrapper {
+  width: 100%;
+  text-align: center;
+  color: #808080;
+}
+
+.words,
+.my-details {
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.download-button {
+  display: flex;
+  height: 40px;
+  margin: 0 auto;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  font-size: 10px;
+  font-weight: bolder;
+  align-items: center;
+}
+
+button[class^="download-button"] [class^="icon__"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-button {
+  background-color: #1875f0;
+}

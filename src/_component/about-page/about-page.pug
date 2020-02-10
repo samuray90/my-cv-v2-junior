@@ -1,0 +1,30 @@
+//- pre=JSON.stringify(data["about-page"],null, 2)
+.column(span="row")
+    .page-title__wrapper
+        .page-title=data["about-page"].pageTitle
+.column(span="row" height="10")
+.column(span="row")
+    button.button-wrapper__red-content
+        i.icon__youtube
+.column(span="row" height="10")
+.column(span="row")
+    h1.page-title__name=data["about-page"].pageTitleName
+.column(span="row" height="10")
+.column(span="row")
+    h2.page-title__position=data["about-page"].pageTitlePosition
+.column(span="row")
+    h3.page-title__chapter=data["about-page"].pageTitleChapter
+.column(span="row")
+    .my-details
+        each description in data["about-page"].descriptionList
+            p.wordsdata=description
+.column(span="row" height="10")
+.column(span="row")
+    button.download-button
+        i.icon__download
+        span.general-button=data["about-page"].downloadButton
+.column(span="row" height="10")
+.column(span="row")
+    button.button-wrapper__green-arrow
+        i.icon__arrow-down
+.column(span="row" height="10")

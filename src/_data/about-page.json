@@ -1,0 +1,13 @@
+{
+  "pageTitle": "Welcome to My Resume",
+  "pageTitleName": "Bogdan Negura",
+  "pageTitlePosition": "Junior Fron-End Developer",
+  "pageTitleChapter": "About Me",
+  "descriptionList": [
+    "I build a better world brick by brick. I fall in love with React and Redux and I’m eager to create amazing interfaces and bring a HUGE smile on your face. Let’s talk.",
+    "Address: Slough, London",
+    "Mobile: 07431231234",
+    "Email: negura.bogdan.90@gmail.com"
+  ],
+  "downloadButton": "Download Resume"
+}
