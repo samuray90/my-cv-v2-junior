@@ -3,5 +3,10 @@ include ../first-title-wrapper/first-title-wrapper
 
 .column(span="row")
   h3.meet-me__another-title=data.expertise.story.title
+.column(span="row")
   ul
-    each expertise in data.expertise.story.expertiseList
+    each item, key in data.expertise.story.itemList
+      li
+        span=item.icon
+        span=item.label
+        span=key + 1

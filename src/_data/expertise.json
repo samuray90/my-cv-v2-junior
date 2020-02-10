@@ -1,8 +1,8 @@
 {
-  "firstTitle": "Expertise",
+  "firstTitle": "Expertises",
   "story": {
     "title": "Story",
-    "expertiseList": [
+    "itemList": [
       {
         "icon": "heart",
         "color": "red",
