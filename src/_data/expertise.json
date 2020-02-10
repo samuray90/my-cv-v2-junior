@@ -9,12 +9,12 @@
         "label": "Preffered technologies"
       },
       {
-        "icon": "heart",
+        "icon": "trophy",
         "color": "red",
         "label": "Technologies I am good"
       },
       {
-        "icon": "heart",
+        "icon": "book",
         "color": "red",
         "label": "I would like to learn"
       }

@@ -6,7 +6,7 @@ include ../first-title-wrapper/first-title-wrapper
 .column(span="row")
   ul
     each item, key in data.expertise.story.itemList
-      li
-        span=item.icon
+      li.expertise__list
+        span(class=`icon-${item.icon}`)
         span=item.label
         span=key + 1
