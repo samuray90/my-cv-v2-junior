@@ -1,0 +1,23 @@
+{
+  "firstTitle": "Expertise",
+  "story": {
+    "title": "Story",
+    "expertiseList": [
+      {
+        "icon": "heart",
+        "color": "red",
+        "label": "Preffered technologies"
+      },
+      {
+        "icon": "heart",
+        "color": "red",
+        "label": "Technologies I am good"
+      },
+      {
+        "icon": "heart",
+        "color": "red",
+        "label": "I would like to learn"
+      }
+    ]
+  }
+}

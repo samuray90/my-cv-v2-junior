@@ -1,0 +1,7 @@
+-  var firstTitle = data.expertise.firstTitle;
+include ../first-title-wrapper/first-title-wrapper
+
+.column(span="row")
+  h3.meet-me__another-title=data.expertise.story.title
+  ul
+    each expertise in data.expertise.story.expertiseList
