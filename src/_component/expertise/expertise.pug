@@ -1,0 +1,23 @@
+-  var firstTitle = data.expertise.firstTitle;
+include ../first-title-wrapper/first-title-wrapper
+
+.column(span="row")
+  h3.meet-me__another-title=data.expertise.story.title
+.column(span="row" height="10")
+.column(span="row")
+  ul.expertise__list
+    each item, key in data.expertise.story.itemList
+      li.expertise__item
+        span.expertise__icon(class=`icon-${item.icon}`)
+        span.expertise__label=item.label
+        span.expertise__count=key + 1
+each expertiseType in data.expertise.expertiseTypeList
+  .column(span="row")
+    h3.main-title=expertiseType.type
+  .column(span="row")
+    each expertise in expertiseType.technologieList
+      span(class=`expertise__technologie-${expertise.type}`)=expertise.label
+.column(span="row")
+  button.second-circle
+    span.icon-arrow-down2
+    span.circle-text

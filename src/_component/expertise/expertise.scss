@@ -1,0 +1,71 @@
+.expertise__list {
+  border-radius: 6px;
+  border: 2px solid #707070;
+  list-style-type: none;
+}
+
+.expertise__item {
+  display: flex;
+  border: 2px solid #707070;
+
+  &:first-child .expertise__icon {
+    color: rgb(162, 24, 226);
+  }
+
+  &:nth-child(2) .expertise__icon {
+    color: rgb(228, 151, 9);
+  }
+
+  &:last-child .expertise__icon {
+    color: rgb(207, 42, 111);
+  }
+}
+
+.expertise__count {
+  color: #707070;
+  font-size: 18px;
+}
+
+.expertise__count,
+.expertise__icon {
+  padding: 10px 12px 8px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.expertise__label {
+  line-height: 48px;
+  color: gray;
+}
+
+.expertise__label {
+  flex-grow: 1;
+}
+
+.expertise__technologie-heart,
+.expertise__technologie-trophy,
+.expertise__technologie-book {
+  font-size: 9px;
+  font-weight: bolder;
+  color: white;
+  line-height: 30px;
+  padding: 0 18px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.expertise__technologie-heart {
+  background-color: rgb(162, 24, 226);
+}
+
+.expertise__technologie-trophy {
+  background-color: rgb(207, 42, 111);
+}
+
+.expertise__technologie-book {
+  background-color: rgb(228, 151, 9);
+}

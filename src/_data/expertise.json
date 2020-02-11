@@ -1,0 +1,136 @@
+{
+  "firstTitle": "Expertises",
+  "story": {
+    "title": "Story",
+    "itemList": [
+      {
+        "icon": "heart",
+        "color": "red",
+        "label": "Preffered technologies"
+      },
+      {
+        "icon": "trophy",
+        "color": "red",
+        "label": "Technologies I am good"
+      },
+      {
+        "icon": "book",
+        "color": "red",
+        "label": "I would like to learn"
+      }
+    ]
+  },
+  "expertiseTypeList": [
+    {
+      "type": "Front End",
+      "technologieList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JavaScript"
+        },
+        {
+          "type": "heart",
+          "label": "React"
+        },
+        {
+          "type": "heart",
+          "label": "Redux"
+        },
+        {
+          "type": "trophy",
+          "label": "SASS"
+        },
+        {
+          "type": "trophy",
+          "label": "LESS"
+        }
+      ]
+    },
+    {
+      "type": "Back End",
+      "technologieList": [
+        {
+          "type": "heart",
+          "label": "Pug"
+        },
+        {
+          "type": "heart",
+          "label": "NodeJS"
+        },
+        {
+          "type": "heart",
+          "label": "FireBase"
+        },
+        {
+          "type": "trophy",
+          "label": "Git"
+        },
+        {
+          "type": "trophy",
+          "label": "Linux"
+        },
+        {
+          "type": "trophy",
+          "label": "Rest"
+        },
+        {
+          "type": "trophy",
+          "label": "MySQL"
+        },
+        {
+          "type": "book",
+          "label": "SWS"
+        },
+        {
+          "type": "book",
+          "label": "BlockChain"
+        },
+        {
+          "type": "book",
+          "label": "Elastic Search"
+        },
+        {
+          "type": "book",
+          "label": "GraphQL"
+        }
+      ]
+    },
+    {
+      "type": "Others",
+      "technologieList": [
+        {
+          "type": "book",
+          "label": "Windows"
+        },
+        {
+          "type": "heart",
+          "label": "Linux"
+        },
+        {
+          "type": "book",
+          "label": "Mac OSx"
+        },
+        {
+          "type": "trophy",
+          "label": "Jira"
+        },
+        {
+          "type": "trophy",
+          "label": "Agile"
+        },
+        {
+          "type": "book",
+          "label": "Rally"
+        }
+      ]
+    }
+  ]
+}
