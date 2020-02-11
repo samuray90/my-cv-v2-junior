@@ -1,0 +1,119 @@
+.meet-me__avatar {
+  padding-top: 100%;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.40);
+  position: relative;
+  border-radius: 8px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    background-size: cover;
+    background-image: url('/asset/image/profile picture.png');
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 6px;
+  }
+}
+
+.meet-me_radio:checked + .column .meet-me__circle {
+  background-color: #20d55d;
+
+}
+
+.meet-me__circle {
+  display: block;
+  transition: 250ms;
+  background-color: rgb(245, 124, 190);
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+  color: black;
+  cursor: pointer;
+
+  &[for="meet-me__label--reset"] {
+    width: 30px;
+    color: white;
+  }
+}
+
+[class^="icon--"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7vw;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.description-box {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.40);
+  border-radius: 6px;
+  position: relative;
+}
+
+.description-box__header {
+  padding: 20px;
+  display: flex;
+}
+
+.description-box__title {
+  flex-grow: 1;
+  line-height: 40px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.description-box__body,
+.description-box__footer {
+  padding: 20px;
+}
+
+.description-box__paragraph {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.description-box__body {
+  border-top: 2px solid #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.button-link {
+  background-color: pink;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding-left: 28px;
+  color: black;
+}
+
+@for $i from 1 through 6 {
+.meet-me_radio:nth-of-type(#{$i}):checked ~ [data-description-box="#{$i}"] {
+  display: block;
+  }
+}
+
+[data-description-box] {
+  display: none;
+}

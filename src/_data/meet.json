@@ -1,0 +1,47 @@
+{
+  "firstTitle": "Meet me",
+  "socialList": [
+    {
+      "icon": "facebook2",
+      "title": "Facebook",
+      "text": "Click on the link below for more photos.",
+      "label": "Click here",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "text": "Click on the link below for more photos.",
+      "label": "Click here",
+      "link": "https://instagram.com"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "text": "Click on the link below for more photos.",
+      "label": "Click here",
+      "link": "https://twitter.com"
+    },
+    {
+      "icon": "youtube",
+      "title": "Youtube",
+      "text": "Click on the link below for more photos.",
+      "label": "Click here",
+      "link": "https://youtube.com"
+    },
+    {
+      "icon": "github",
+      "title": "Github",
+      "text": "Click on the link below for my projects.",
+      "label": "Click here",
+      "link": "https://github.com"
+    },
+    {
+      "icon": "linkedin",
+      "title": "Linkedin",
+      "text": "Click on the link below for more photos.",
+      "label": "Click here",
+      "link": "https://linkedin.com"
+    }
+  ]
+}
