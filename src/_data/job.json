@@ -1,0 +1,49 @@
+{
+  "firstTitle": "Jobs",
+  "jobList": [
+    {
+      "jobName": "Junior Front End Developer",
+      "startDate": "January 2019",
+      "endDate": "",
+      "logoPath": "asset/image/bitbee.png",
+      "companyName": "BitBee Ltd",
+      "responabilityList": [
+        " Help and support members improving current aptitudes and gaining new skill sets.",
+        " Developing web pages using technologies including HTML, CSS and JavaScript."
+      ]
+    },
+    {
+      "jobName": "Personal Assistant",
+      "startDate": "June 2018",
+      "endDate": "January 2019",
+      "logoPath": "asset/image/kineto.png",
+      "companyName": "R S WIND LIMITED",
+      "responabilityList": [
+        " ",
+        " "
+      ]
+    },
+    {
+      "jobName": "Team Leader",
+      "startDate": "September 2017",
+      "endDate": "May 2018",
+      "logoPath": "asset/image/job.png",
+      "companyName": "City Abseiling LTD",
+      "responabilityList": [
+        " ",
+        " "
+      ]
+    },
+    {
+      "jobName": "pHISIOTHERAPIST",
+      "startDate": "June 2015",
+      "endDate": "July 2017",
+      "logoPath": "asset/image/rswind.png",
+      "companyName": "Kineto Promedical Life",
+      "responabilityList": [
+        " ",
+        " "
+      ]
+    }
+  ]
+}
