@@ -20,7 +20,7 @@
       }
     ]
   },
-  "expertiseList": [
+  "expertiseTypeList": [
     {
       "type": "Front End",
       "technologieList": [
