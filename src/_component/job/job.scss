@@ -6,6 +6,10 @@
   @extend %list-item;
   display: grid;
   grid-template-columns: auto 1fr auto;
+
+  &:not(:last-child) {
+    @extend %list-item;
+  }
 }
 
 .job__something {
@@ -29,6 +33,10 @@
 
 .job__body {
   grid-column: 1/-1;
+  padding: 20px;
+  display: none;
+  border-top: 2px solid #707070;
+
 }
 
 .job__photo {
@@ -51,6 +59,12 @@
   line-height: 20px;
 }
 
+.job__date {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 30px;
+}
+
 .job__something {
   margin: 25px;
   width: 40px;
@@ -60,8 +74,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 
   .icon-arrow-up2 {
     transform: rotate(180deg);
+  }
+}
+
+.responsability__list {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.job__checkbox {
+  display: none;
+
+  &:checked ~ .job__body {
+    display: initial;
+  }
+
+  &:checked ~ .job__something .icon-arrow-up2 {
+    transform: rotate(0);
   }
 }

@@ -6,10 +6,11 @@ include ../first-title-wrapper/first-title-wrapper
   ul.job__list
     each job in data.job.jobList
       li.job__item
+        input(type="checkbox" id=`job__checkbox-${key}`).job__checkbox
         .job__logo
           img.job__photo(src=`${baseUrl}asset/image/${job.logoPath}` width="50")
         .job__title=job.jobName
-        .job__something
+        label(for=`job__checkbox-${key}`).job__something
           .icon-arrow-up2
         .job__company=job.companyName
         .job__body
