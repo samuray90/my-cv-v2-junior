@@ -7,9 +7,10 @@ include ../first-title-wrapper/first-title-wrapper
     each job in data.job.jobList
       li.job__item
         .job__logo
-          img(src=`${baseUrl}asset/image/${job.logoPath}`)
+          img.job__photo(src=`${baseUrl}asset/image/${job.logoPath}` width="50")
         .job__title=job.jobName
-        .job__something aaa
+        .job__something
+          .icon-arrow-up2
         .job__company=job.companyName
         .job__body
           .job__date=`${job.startDate} - ${job.endDate}`

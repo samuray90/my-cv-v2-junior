@@ -30,3 +30,38 @@
 .job__body {
   grid-column: 1/-1;
 }
+
+.job__photo {
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.job__title {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.job__company {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.job__title,
+.job__company {
+  line-height: 20px;
+}
+
+.job__something {
+  margin: 25px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .icon-arrow-up2 {
+    transform: rotate(180deg);
+  }
+}
