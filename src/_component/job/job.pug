@@ -5,7 +5,15 @@ include ../first-title-wrapper/first-title-wrapper
 .column(span="row")
   ul.job__list
     each job in data.job.jobList
-      li=job.jobName
+      li.job__item
+        .job__logo
+          img(src=`${baseUrl}asset/image/${job.logoPath}`)
+        .job__title=job.jobName
+        .job__something=job.companyName
+        .job__body
+          .job__date=`${job.startDate} - ${job.endDate}`
+          each responsability in job.responsabilityList
+            .responsability__list=responsability
 
 .column(span="row" height="10")
 .column(span="row")
