@@ -4,7 +4,7 @@
 
 .expertise__item {
   display: flex;
-  border: 2px solid #707070;
+  @extend %list-item;
 
   &:first-child .expertise__icon {
     color: rgb(162, 24, 226);

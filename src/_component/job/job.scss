@@ -1,3 +1,32 @@
 .job__list {
-  @extend %border-list
+  @extend %border-list;
+}
+
+.job__item {
+  @extend %list-item;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.job__something {
+  grid-column: 3/4;
+}
+
+.job__something,
+.job__logo {
+  grid-row: 1/3;
+}
+
+.job-title {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.job-company {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.job__body {
+  grid-column: 1/-1;
 }
