@@ -1,2 +1,14 @@
 - var firstTitle = data.job.firstTitle;
 include ../first-title-wrapper/first-title-wrapper
+
+.column(span="row" height="10")
+.column(span="row")
+  ul.job__list
+    each job in data.job.jobList
+      li=job.jobName
+
+.column(span="row" height="10")
+.column(span="row")
+  button.second-circle
+    span.icon-arrow-down2
+    span.circle-text
