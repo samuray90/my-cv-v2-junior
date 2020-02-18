@@ -8,7 +8,28 @@
   padding: 10px;
   height: 60px;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  box-shadow: 0 2px 6px rgba($color: #000000, $alpha: 0.5);
+  position: relative;
+
+  &::after {
+    content: '';
+    box-shadow: 0 2px 6px rgba($color: #000000, $alpha: 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  &::before {
+    content: '';
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    position: absolute;
+    top: 0;
+    left: -36px;
+    bottom: 0;
+    right: -36px;
+  }
+
 }
 
 .top-box__title {
@@ -16,6 +37,7 @@
   height: 40px;
   line-height: 40px;
   text-align: center;
+  position: relative;
 }
 
 .welcome__full-name {
@@ -32,6 +54,7 @@
   font-size: 22px;
   line-height: 30px;
   color: #8C8C8C;
+  margin-top: 30px;
 }
 
 .text-description__with-extra-shadow {
@@ -81,7 +104,7 @@
   background-color: #003FA8;
 }
 
-.my-resume__download {
+button[class^="download-button"] span[class^="my-resume__"] {
   height: 16px;
   width: 16px;
   margin-right: 12px;
