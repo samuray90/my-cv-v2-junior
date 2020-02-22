@@ -1,3 +1,15 @@
-.chat {
-  color: red;
+.chat__image {
+  padding-top: 100%;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    background-image: url(asset/image/my-half-face.jpg);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+  }
 }
