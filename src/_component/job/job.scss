@@ -1,0 +1,99 @@
+.job__list {
+  @extend %border-list;
+}
+
+.job__item {
+  @extend %list-item;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+
+  &:not(:last-child) {
+    @extend %list-item;
+  }
+}
+
+.job__something {
+  grid-column: 3/4;
+}
+
+.job__something,
+.job__logo {
+  grid-row: 1/3;
+}
+
+.job-title {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.job-company {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.job__body {
+  grid-column: 1/-1;
+  padding: 20px;
+  display: none;
+  border-top: 2px solid #707070;
+
+}
+
+.job__photo {
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.job__title {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.job__company {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.job__title,
+.job__company {
+  line-height: 20px;
+}
+
+.job__date {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.job__something {
+  margin: 25px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  .icon-arrow-up2 {
+    transform: rotate(180deg);
+  }
+}
+
+.responsability__list {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.job__checkbox {
+  display: none;
+
+  &:checked ~ .job__body {
+    display: initial;
+  }
+
+  &:checked ~ .job__something .icon-arrow-up2 {
+    transform: rotate(0);
+  }
+}

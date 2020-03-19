@@ -1,0 +1,25 @@
+- var firstTitle = data.job.firstTitle;
+include ../first-title-wrapper/first-title-wrapper
+
+.column(span="row" height="10")
+.column(span="row")
+  ul.job__list
+    each job in data.job.jobList
+      li.job__item
+        input(type="checkbox" id=`job__checkbox-${key}`).job__checkbox
+        .job__logo
+          img.job__photo(src=`${baseUrl}asset/image/${job.logoPath}` width="50")
+        .job__title=job.jobName
+        label(for=`job__checkbox-${key}`).job__something
+          .icon-arrow-up2
+        .job__company=job.companyName
+        .job__body
+          .job__date=`${job.startDate} - ${job.endDate}`
+          each responsability in job.responsabilityList
+            .responsability__list=responsability
+
+.column(span="row" height="10")
+.column(span="row")
+  button.second-circle
+    span.icon-arrow-down2
+    span.circle-text
