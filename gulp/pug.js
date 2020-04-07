@@ -49,12 +49,12 @@ const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) 
             plugins.changed(taskTarget)
           )
         )
-        .pipe(plugins.plumber({
-          errorHandler: plugins.notify.onError({
-            title: 'Error converting PUG',
-            message: 'Error: <%= error.message %>'
-          })}
-        ))
+        // .pipe(plugins.plumber({
+        //   errorHandler: plugins.notify.onError({
+        //     title: 'Error converting PUG',
+        //     message: 'Error: <%= error.message %>'
+        //   })}
+        // ))
         // compile pug to html
         .pipe(
           plugins.pug({
