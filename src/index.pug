@@ -1,8 +1,10 @@
 doctype html
 html
   head
-    link(rel="stylesheet", href="style.css")
-    meta(name="viewport" content="width=device-width, initial-scale=1")
-    title this is my first project using pug
+    title My CV 
+    link(rel="stylesheet", href=`${baseUrl}style.css`)
+    meta(name="viewport" , content="width=device-width, initial-scale=1.0")
   body
-    h1 About Me
+    .content
+      .grid
+        include _component/about-me/about-me
