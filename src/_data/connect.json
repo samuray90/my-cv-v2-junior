@@ -1,4 +1,76 @@
 {
-    "sectionTitle": "Let's Connect",
-    "avatarPath": "asset/image/avatar-mihaela.jpg"
+  "sectionTitle": "Let's Connect",
+  "avatarPath": "asset/image/avatar-mihaela.jpg",
+  "socialList": [
+    {
+      "icon": "codetap",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "github",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "linkedin",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "codewars",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "udemy",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "facebook",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "skype",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "instagram",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "twitter",
+      "title": "CodeTap",
+      "description": "mimimi",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    }
+  ]
 }
