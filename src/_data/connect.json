@@ -1,0 +1,76 @@
+{
+  "sectionTitle": "Let's Connect",
+  "avatarPath": "asset/image/avatar-mihaela.jpg",
+  "socialList": [
+    {
+      "icon": "codetap",
+      "title": "CodeTap",
+      "description": "CodeTap gave me an opportunity to change my career!",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+    {
+      "icon": "github",
+      "title": "GitHub",
+      "description": "There you would have the opportunity to see my open source projects working with HTML, CSS and JavaScript",
+      "label": "github.com/mihaelachetran",
+      "link": "http://github.com/mihaelachetran"
+    },
+    {
+      "icon": "linkedin",
+      "title": "LinkedIn",
+      "description": "I am ambitious and eager to acquire new skills and gain on the job experiences within a large organisation.",
+      "label": "linkedin.com/mihaelachetran",
+      "link": "http://linkedin.com/mihaelachetran"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "StackOverflow",
+      "description": "I will create an account",
+      "label": "http://stackoverflow.com",
+      "link": "http://stackoverflow.com"
+    },
+    {
+      "icon": "codewars",
+      "title": "CodeWars",
+      "description": "I will create an account",
+      "label": "codewars.com",
+      "link": "http://codewars.com"
+    },
+    {
+      "icon": "udemy",
+      "title": "Udemy",
+      "description": "Find your course",
+      "label": "udemy.com/mihaela",
+      "link": "http://udemy.com/mihaela"
+    },
+    {
+      "icon": "facebook",
+      "title": "FaceBook",
+      "description": "For friends and family!",
+      "label": "facebook.com/mihaelachetran.7",
+      "link": "http://facebook.com/mihaelachetran.7"
+    },
+    {
+      "icon": "skype",
+      "title": "Skype",
+      "description": "For friends and family",
+      "label": "skype.com/mihaelachetran",
+      "link": "http://skype.com/mihaelachetran"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "description": "Not a big fun",
+      "label": "instagram.com/mihaela1178",
+      "link": "http://instagram.com/mihaela1178"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "description": "I do not have Twitter as I do not tweet",
+      "label": "twitter.com",
+      "link": "http://twitter.com"
+    }
+  ]
+}
