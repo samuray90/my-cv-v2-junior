@@ -6,6 +6,7 @@
 .description-box__body {
   padding: 20px;
 }
+
 .description-box__footer {
   display: flex;
   justify-content: center;
@@ -17,7 +18,7 @@
   }
 }
 
-[data-description-box=] {
+[data-description-box] {
   display: none;
 }
 
@@ -32,7 +33,7 @@
   background-color: white;
   position: relative;
   margin-top: 1rem;
-  
+
 
   &::after {
     content: '';
