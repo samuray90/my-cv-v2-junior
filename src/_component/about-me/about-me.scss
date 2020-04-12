@@ -7,9 +7,6 @@
   }
 }
 
-.button__pill--blue {
-  background-color: #1875F0;
-}
 
 .button__pill--blue {
   height: 40px;
@@ -18,10 +15,11 @@
   border: 0;
   border-radius: 20px;
   padding: 0 24px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-size: 10px;
   font-weight: bolder;
+  background-color: #1875F0;
 }
 
 button[class^="button__pill"] i[class^="icon__"] {
