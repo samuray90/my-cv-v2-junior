@@ -1,0 +1,10 @@
+- var sectionTitle = data.skills.sectionTitle
+include ../section-title/section-title
+
+.column(span="row")
+  h3.about-me__body-title=data.skills.legend.title
+  ul
+    each item in data.skills.legend.itemList
+      li
+        span=item.icon
+        span=item.color
