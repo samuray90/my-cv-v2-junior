@@ -19,6 +19,10 @@ body {
   grid-column: 1/-1;
 }
 
+.column[height="10"] {
+  height: 10px;
+}
+
 .column[height="20"] {
   height: 20px;
 }
