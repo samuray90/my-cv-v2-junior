@@ -2,19 +2,20 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?a2e4p2') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?a2e4p2') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?a2e4p2##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sxx3rr');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sxx3rr#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?sxx3rr') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?sxx3rr') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?sxx3rr##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="my-resume__"], [class*=" my-resume__"] {
+[class^="icon_"], [class*=" icon_"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -26,156 +27,139 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.my-resume__arrow-down {
+.icon_arrow-down {
   &:before {
-    content: $my-resume__arrow-down; 
+    content: $icon_arrow-down; 
   }
 }
-.my-resume__arrow-up {
+.icon_arrow-up {
   &:before {
-    content: $my-resume__arrow-up; 
+    content: $icon_arrow-up; 
   }
 }
-.my-resume__book {
+.icon_book {
   &:before {
-    content: $my-resume__book; 
+    content: $icon_book; 
   }
 }
-.my-resume__codetap .path1 {
+.icon_codetap {
   &:before {
-    content: $my-resume__codetap-path1;  
-    color: rgb(68, 68, 68);
+    content: $icon_codetap; 
   }
 }
-.my-resume__codetap .path2 {
+.icon_codewars {
   &:before {
-    content: $my-resume__codetap-path2;  
-    margin-left: -1em;  
-    color: rgb(255, 255, 255);
+    content: $icon_codewars; 
   }
 }
-.my-resume__codetap .path3 {
+.icon_commits {
   &:before {
-    content: $my-resume__codetap-path3;  
-    margin-left: -1em;  
-    color: rgb(255, 255, 255);
+    content: $icon_commits; 
   }
 }
-.my-resume__codetap .path4 {
+.icon_cross {
   &:before {
-    content: $my-resume__codetap-path4;  
-    margin-left: -1em;  
-    color: rgb(255, 255, 255);
+    content: $icon_cross; 
   }
 }
-.my-resume__codewars {
+.icon_download {
   &:before {
-    content: $my-resume__codewars; 
+    content: $icon_download; 
   }
 }
-.my-resume__commits {
+.icon_earth {
   &:before {
-    content: $my-resume__commits; 
+    content: $icon_earth; 
   }
 }
-.my-resume__cross {
+.icon_facebook {
   &:before {
-    content: $my-resume__cross; 
+    content: $icon_facebook; 
   }
 }
-.my-resume__download {
+.icon_forks {
   &:before {
-    content: $my-resume__download; 
+    content: $icon_forks; 
   }
 }
-.my-resume__earth {
+.icon_github {
   &:before {
-    content: $my-resume__earth; 
+    content: $icon_github; 
   }
 }
-.my-resume__facebook {
+.icon_heart {
   &:before {
-    content: $my-resume__facebook; 
+    content: $icon_heart; 
   }
 }
-.my-resume__forks {
+.icon_info {
   &:before {
-    content: $my-resume__forks; 
+    content: $icon_info; 
   }
 }
-.my-resume__github {
+.icon_instagram {
   &:before {
-    content: $my-resume__github; 
+    content: $icon_instagram; 
   }
 }
-.my-resume__heart {
+.icon_link {
   &:before {
-    content: $my-resume__heart; 
+    content: $icon_link; 
   }
 }
-.my-resume__info {
+.icon_linkedin {
   &:before {
-    content: $my-resume__info; 
+    content: $icon_linkedin; 
   }
 }
-.my-resume__instagram {
+.icon_menu {
   &:before {
-    content: $my-resume__instagram; 
+    content: $icon_menu; 
   }
 }
-.my-resume__link {
+.icon_rotate {
   &:before {
-    content: $my-resume__link; 
+    content: $icon_rotate; 
   }
 }
-.my-resume__linkedin {
+.icon_skype {
   &:before {
-    content: $my-resume__linkedin; 
+    content: $icon_skype; 
   }
 }
-.my-resume__menu {
+.icon_stackoverflow {
   &:before {
-    content: $my-resume__menu; 
+    content: $icon_stackoverflow; 
   }
 }
-.my-resume__skype {
+.icon_stars {
   &:before {
-    content: $my-resume__skype; 
+    content: $icon_stars; 
   }
 }
-.my-resume__stackoverflow {
+.icon_trophy {
   &:before {
-    content: $my-resume__stackoverflow; 
+    content: $icon_trophy; 
   }
 }
-.my-resume__stars {
+.icon_twitter {
   &:before {
-    content: $my-resume__stars; 
+    content: $icon_twitter; 
   }
 }
-.my-resume__trophy {
+.icon_udemy {
   &:before {
-    content: $my-resume__trophy; 
+    content: $icon_udemy; 
   }
 }
-.my-resume__twitter {
+.icon_user {
   &:before {
-    content: $my-resume__twitter; 
+    content: $icon_user; 
   }
 }
-.my-resume__udemy {
+.icon_youtube {
   &:before {
-    content: $my-resume__udemy; 
-  }
-}
-.my-resume__user {
-  &:before {
-    content: $my-resume__user; 
-  }
-}
-.my-resume__youtube {
-  &:before {
-    content: $my-resume__youtube; 
+    content: $icon_youtube; 
   }
 }
 
