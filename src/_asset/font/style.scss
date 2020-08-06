@@ -1,0 +1,165 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sxx3rr');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sxx3rr#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?sxx3rr') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?sxx3rr') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?sxx3rr##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon_"], [class*=" icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_arrow-down {
+  &:before {
+    content: $icon_arrow-down; 
+  }
+}
+.icon_arrow-up {
+  &:before {
+    content: $icon_arrow-up; 
+  }
+}
+.icon_book {
+  &:before {
+    content: $icon_book; 
+  }
+}
+.icon_codetap {
+  &:before {
+    content: $icon_codetap; 
+  }
+}
+.icon_codewars {
+  &:before {
+    content: $icon_codewars; 
+  }
+}
+.icon_commits {
+  &:before {
+    content: $icon_commits; 
+  }
+}
+.icon_cross {
+  &:before {
+    content: $icon_cross; 
+  }
+}
+.icon_download {
+  &:before {
+    content: $icon_download; 
+  }
+}
+.icon_earth {
+  &:before {
+    content: $icon_earth; 
+  }
+}
+.icon_facebook {
+  &:before {
+    content: $icon_facebook; 
+  }
+}
+.icon_forks {
+  &:before {
+    content: $icon_forks; 
+  }
+}
+.icon_github {
+  &:before {
+    content: $icon_github; 
+  }
+}
+.icon_heart {
+  &:before {
+    content: $icon_heart; 
+  }
+}
+.icon_info {
+  &:before {
+    content: $icon_info; 
+  }
+}
+.icon_instagram {
+  &:before {
+    content: $icon_instagram; 
+  }
+}
+.icon_link {
+  &:before {
+    content: $icon_link; 
+  }
+}
+.icon_linkedin {
+  &:before {
+    content: $icon_linkedin; 
+  }
+}
+.icon_menu {
+  &:before {
+    content: $icon_menu; 
+  }
+}
+.icon_rotate {
+  &:before {
+    content: $icon_rotate; 
+  }
+}
+.icon_skype {
+  &:before {
+    content: $icon_skype; 
+  }
+}
+.icon_stackoverflow {
+  &:before {
+    content: $icon_stackoverflow; 
+  }
+}
+.icon_stars {
+  &:before {
+    content: $icon_stars; 
+  }
+}
+.icon_trophy {
+  &:before {
+    content: $icon_trophy; 
+  }
+}
+.icon_twitter {
+  &:before {
+    content: $icon_twitter; 
+  }
+}
+.icon_udemy {
+  &:before {
+    content: $icon_udemy; 
+  }
+}
+.icon_user {
+  &:before {
+    content: $icon_user; 
+  }
+}
+.icon_youtube {
+  &:before {
+    content: $icon_youtube; 
+  }
+}
+
